@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Navy background -->
+  <rect width="32" height="32" rx="5" fill="#0f1840"/>
+  <!-- Left roof peak (triangle) -->
+  <polygon points="3,22 10,10 17,22" fill="#e8e4d8" stroke="#4054b2" stroke-width="0.5"/>
+  <!-- Right roof peak (triangle) -->
+  <polygon points="15,22 22,10 29,22" fill="#e8e4d8" stroke="#4054b2" stroke-width="0.5"/>
+  <!-- Left gable window -->
+  <rect x="8.5" y="16.5" width="3" height="3" rx="0.5" fill="#4054b2"/>
+  <!-- Right gable window -->
+  <rect x="20.5" y="16.5" width="3" height="3" rx="0.5" fill="#4054b2"/>
+  <!-- Shingle lines on left roof -->
+  <line x1="5.5" y1="18.5" x2="14.5" y2="18.5" stroke="#c8c4b8" stroke-width="0.5"/>
+  <line x1="7" y1="15" x2="13" y2="15" stroke="#c8c4b8" stroke-width="0.5"/>
+  <!-- Shingle lines on right roof -->
+  <line x1="17.5" y1="18.5" x2="26.5" y2="18.5" stroke="#c8c4b8" stroke-width="0.5"/>
+  <line x1="19" y1="15" x2="25" y2="15" stroke="#c8c4b8" stroke-width="0.5"/>
+  <!-- Blue sign bar at bottom -->
+  <rect x="2" y="22" width="28" height="8" rx="1" fill="#4054b2"/>
+  <!-- "HR" text in sign -->
+  <text x="16" y="28.5" font-family="Arial, sans-serif" font-weight="900" font-size="6.5" fill="white" text-anchor="middle" letter-spacing="0.5">HR</text>
+</svg>

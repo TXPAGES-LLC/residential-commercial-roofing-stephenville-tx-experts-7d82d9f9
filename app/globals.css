@@ -1,0 +1,121 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #f8f7f5;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  --primary: #4054b2;
+  --primary-foreground: #ffffff;
+  --secondary: #cc0000;
+  --secondary-foreground: #ffffff;
+  --muted: #f0efeb;
+  --muted-foreground: #6b6b6b;
+  --accent: #ff0000;
+  --accent-foreground: #ffffff;
+  --destructive: #cc0000;
+  --destructive-foreground: #ffffff;
+  --border: #e2ddd6;
+  --input: #e2ddd6;
+  --ring: #4054b2;
+  --radius: 0.375rem;
+  --navy: #0f1840;
+}
+
+@theme inline {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-navy: var(--navy);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    /* Prevent font inflation on mobile (common CLS cause) */
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  body {
+    @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+    /* Eliminate 300ms tap delay on all interactive elements globally */
+    touch-action: manipulation;
+    /* Safe area insets for iPhone notch / home bar */
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  /* Minimum 44×44px tap targets for all interactive elements (WCAG 2.5.5) */
+  a, button, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  /* Allow block-level links to fill container without forcing inline-flex */
+  a.block, a[class*="block"] {
+    display: block;
+    min-height: 44px;
+  }
+  /* Ensure images never overflow their containers */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Display font utility */
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* FAB safe area — keeps the floating call button above the iOS home bar */
+.fab-safe-bottom {
+  bottom: calc(1.5rem + env(safe-area-inset-bottom));
+}
+
+/* Prevent content from hiding behind the fixed FAB on mobile */
+.pb-fab {
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+}
+
+/* Aspect ratio helpers for CLS prevention */
+.aspect-hero {
+  aspect-ratio: 16 / 7;
+}
+.aspect-service-card {
+  aspect-ratio: 4 / 3;
+}

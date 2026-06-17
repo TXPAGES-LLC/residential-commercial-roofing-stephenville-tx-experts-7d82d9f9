@@ -1,0 +1,52 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.heritageroofingtexas.com" }],
+      "destination": "https://heritageroofingtexas.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "heritageroofinginc.com" }],
+      "destination": "https://heritageroofingtexas.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.heritageroofinginc.com" }],
+      "destination": "https://heritageroofingtexas.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services/",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/locations/",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/gallery/",
+      "destination": "/gallery",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/contact",
+      "permanent": true
+    }
+  ]
+}
