@@ -250,8 +250,8 @@ const categories = [
     photos: [
       {
         src: '/img-0624.jpg',
-        alt: 'Brick chimney with metal step flashing repair on asphalt shingle roof — Heritage Roofing',
-        caption: 'Chimney flashing repair',
+        alt: 'Reroof from composition shingles to metal roofing on residential home — Heritage Roofing Stephenville TX',
+        caption: 'Reroof — composition shingles to metal',
       },
       {
         src: '/img-0762.jpg',
