@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: 'Full roof replacement in Stephenville TX and Central Texas. Heritage Roofing removes old roofing, installs quality systems with material warranties. Call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/roof-replacement',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Roof replacement by Heritage Roofing, Inc. — Stephenville TX' }],
+    images: [{ url: 'https://heritageroofingtexas.com/composition-roof.jpg', width: 1440, height: 700, alt: 'New architectural asphalt composition shingles on Texas home — roof replacement by Heritage Roofing, Stephenville TX' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Roof Replacement Stephenville TX | Heritage Roofing',
     description: 'Full roof replacement in Stephenville TX and Central Texas. Written estimate, full tear-off. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/composition-roof.jpg'],
   },
 }
 
@@ -71,7 +71,7 @@ export default function RoofReplacementPage() {
         { label: 'Commercial Roofing', href: '/services/commercial-roofing' },
         { label: 'Storm & Hail Damage', href: '/services/storm-hail-damage' },
         { label: 'Roof Inspections', href: '/services/roof-inspections' },
-        { label: 'Skylights & Ventilation', href: '/services/skylights-ventilation' },
+        { label: 'Skylights & Attic Ventilation', href: '/services/skylights-ventilation' },
       ]}
     />
   )

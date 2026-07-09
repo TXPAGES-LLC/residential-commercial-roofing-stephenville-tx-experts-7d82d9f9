@@ -39,7 +39,7 @@ export default function ServicePageLayout({
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
       { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
-      { '@type': 'ListItem', position: 3, name: subtitle, item: pageUrl ?? `${BASE}/services` },
+      { '@type': 'ListItem', position: 3, name: title, item: pageUrl ?? `${BASE}/services` },
     ],
   }
 
@@ -57,6 +57,7 @@ export default function ServicePageLayout({
               alt={heroImgAlt}
               className="w-full h-full object-cover opacity-30"
               loading="eager"
+              fetchPriority="high"
               width={1440}
               height={500}
             />
@@ -67,7 +68,7 @@ export default function ServicePageLayout({
               <span aria-hidden="true">/</span>
               <Link href="/services" className="hover:text-white transition-colors">Services</Link>
               <span aria-hidden="true">/</span>
-              <span className="text-white">{title}</span>
+              <span className="text-white">{subtitle}</span>
             </nav>
             <p className="font-sans text-[#ff0000] font-semibold text-sm uppercase tracking-widest mb-3">{subtitle}</p>
             <h1 className="font-serif text-4xl md:text-5xl text-white font-bold text-balance mb-5 max-w-2xl">{title}</h1>
@@ -83,10 +84,10 @@ export default function ServicePageLayout({
                 Call 254-968-7663
               </TrackedCallLink>
               <Link
-                href="/services/roof-inspections"
+                href="/contact"
                 className="inline-flex items-center justify-center border border-white/30 hover:border-white/60 text-white font-sans font-semibold px-7 py-4 rounded transition-colors"
               >
-                Free Inspection
+                Request a Free Estimate
               </Link>
             </div>
           </div>
@@ -120,9 +121,29 @@ export default function ServicePageLayout({
                     location="service_page_sidebar_cta"
                     className="flex items-center justify-center gap-2 bg-[#ff0000] hover:bg-[#cc0000] active:bg-[#aa0000] text-white font-serif font-bold uppercase tracking-wide py-3 rounded transition-colors w-full text-sm"
                   >
-                    <PhoneIcon /> Call Now
+                    <PhoneIcon /> Call 254-968-7663
                   </TrackedCallLink>
-                  <p className="font-sans text-white/40 text-xs text-center mt-3">Mon–Fri 8am–5pm · Emergency 7 days</p>
+                  <p className="font-sans text-white/40 text-xs text-center mt-3">Mon–Fri 8am–5pm &middot; Emergency 7 days</p>
+                </div>
+
+                {/* Trust badges */}
+                <div className="bg-white border border-gray-200 rounded-xl p-5 mb-5">
+                  <ul className="flex flex-col gap-2.5">
+                    {[
+                      'Licensed & Insured',
+                      'Written Estimates — No Surprises',
+                      'Workmanship Warranty Included',
+                      'Free Roof Inspections',
+                      'Serving Central Texas Since 1986',
+                    ].map((badge) => (
+                      <li key={badge} className="flex items-center gap-2 font-sans text-sm text-gray-700">
+                        <svg className="w-4 h-4 shrink-0 text-[#4054b2]" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                        {badge}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
                 {/* Related services */}

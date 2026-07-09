@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import Header from './header'
-import Footer from './footer'
+import SiteHeader from './SiteHeader'
+import SiteFooter from './SiteFooter'
+import MobileCallButton from './MobileCallButton'
 
 interface LocationPageLayoutProps {
   city: string
@@ -25,7 +26,7 @@ export default function LocationPageLayout({
 }: LocationPageLayoutProps) {
   return (
     <>
-      <Header />
+      <SiteHeader />
       <main id="main-content">
         {/* Hero */}
         <section className="bg-[#1e2a6b] py-12 sm:py-16">
@@ -151,7 +152,8 @@ export default function LocationPageLayout({
           </div>
         </section>
       </main>
-      <Footer />
+      <SiteFooter />
+      <MobileCallButton />
     </>
   )
 }

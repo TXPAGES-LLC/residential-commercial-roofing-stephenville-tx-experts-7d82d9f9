@@ -7,17 +7,17 @@ export const metadata: Metadata = {
     'Skylight installation, replacement, and attic ventilation services in Stephenville TX. Heritage Roofing improves comfort and roof longevity. Call 254-968-7663.',
   alternates: { canonical: 'https://heritageroofingtexas.com/services/skylights-ventilation' },
   openGraph: {
-  title: 'Skylights & Attic Ventilation TX | Heritage Roofing',
+    title: 'Skylights & Attic Ventilation TX | Heritage Roofing',
     description: 'Skylight installation, replacement, and attic ventilation services in Stephenville TX. Heritage Roofing improves comfort and roof longevity. Call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/skylights-ventilation',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Skylight and ventilation installation — Heritage Roofing, Inc.' }],
+    images: [{ url: 'https://heritageroofingtexas.com/metal-roof.jpg', width: 1440, height: 700, alt: 'White standing seam metal roof with turbine ventilation — skylights and ventilation by Heritage Roofing, Texas' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Skylight Installation & Attic Ventilation | Heritage Roofing',
     description: 'Skylight installation and attic ventilation in Stephenville TX. Improve comfort and roof life. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/metal-roof.jpg'],
   },
 }
 
@@ -25,7 +25,7 @@ export default function SkylightsVentilationPage() {
   return (
     <ServicePageLayout
       title="Skylights & Attic Ventilation in Texas"
-      subtitle="Skylights & Ventilation"
+      subtitle="Skylights & Attic Ventilation"
       pageUrl="https://heritageroofingtexas.com/services/skylights-ventilation"
       heroImg="/metal-roof.jpg"
       heroImgAlt="White standing seam metal roof with turbine ventilation — Heritage Roofing skylights and ventilation TX"

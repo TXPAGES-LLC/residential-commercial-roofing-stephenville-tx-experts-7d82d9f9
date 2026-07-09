@@ -75,20 +75,28 @@
     line-height: 1.6;
     /* Eliminate 300ms tap delay on all interactive elements globally */
     touch-action: manipulation;
-    /* Safe area insets for iPhone notch / home bar */
-    padding-bottom: env(safe-area-inset-bottom);
+    /* Do NOT add padding-bottom here — pb-fab on the footer handles safe-area
+       clearance for the mobile FAB. A global body padding double-stacks it. */
   }
-  /* Minimum 44×44px tap targets for all interactive elements (WCAG 2.5.5) */
-  a, button, [role="button"] {
+  /*
+   * Minimum 44×44px tap targets for buttons and role=button (WCAG 2.5.5).
+   * Deliberately NOT applied to <a> globally — inline text links in prose and
+   * small nav links must remain inline and are handled per-component with
+   * generous padding instead of forced dimensions.
+   */
+  button, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  /*
+   * Navigation and CTA anchor tap targets — applied via utility class rather
+   * than universally so prose links and breadcrumbs are unaffected.
+   */
+  .tap-target {
     min-height: 44px;
     min-width: 44px;
     display: inline-flex;
     align-items: center;
-  }
-  /* Allow block-level links to fill container without forcing inline-flex */
-  a.block, a[class*="block"] {
-    display: block;
-    min-height: 44px;
   }
   /* Ensure images never overflow their containers */
   img {
@@ -118,4 +126,160 @@
 }
 .aspect-service-card {
   aspect-ratio: 4 / 3;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Blog prose styles — applied to dangerouslySetInnerHTML contentHtml output.
+   No @tailwindcss/typography dependency required.
+───────────────────────────────────────────────────────────────────────────── */
+.prose-blog {
+  color: #1a1a1a;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 65ch;
+}
+
+/* Headings */
+.prose-blog h1,
+.prose-blog h2,
+.prose-blog h3,
+.prose-blog h4,
+.prose-blog h5,
+.prose-blog h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: #0f1840;
+  line-height: 1.25;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+.prose-blog h1 { font-size: 2rem; }
+.prose-blog h2 { font-size: 1.5rem; }
+.prose-blog h3 { font-size: 1.25rem; }
+.prose-blog h4 { font-size: 1.1rem; }
+.prose-blog h5,
+.prose-blog h6 { font-size: 1rem; }
+
+/* Paragraphs */
+.prose-blog p {
+  margin-top: 0;
+  margin-bottom: 1.35em;
+}
+
+/* Links */
+.prose-blog a {
+  color: #2563eb;
+  text-decoration: none;
+  min-height: unset;
+  min-width: unset;
+  display: inline;
+}
+.prose-blog a:hover {
+  text-decoration: underline;
+}
+
+/* Strong & emphasis */
+.prose-blog strong,
+.prose-blog b {
+  font-weight: 700;
+  color: inherit;
+}
+.prose-blog em,
+.prose-blog i {
+  font-style: italic;
+}
+
+/* Lists */
+.prose-blog ul,
+.prose-blog ol {
+  margin-top: 0;
+  margin-bottom: 1.35em;
+  padding-left: 1.75em;
+}
+.prose-blog ul { list-style-type: disc; }
+.prose-blog ol { list-style-type: decimal; }
+.prose-blog li {
+  margin-bottom: 0.4em;
+}
+.prose-blog li::marker {
+  color: #4054b2;
+}
+
+/* Blockquote */
+.prose-blog blockquote {
+  border-left: 4px solid #4054b2;
+  margin: 1.5em 0;
+  padding: 0.75em 1.25em;
+  background: #f0f2fb;
+  border-radius: 0 0.375rem 0.375rem 0;
+  font-style: italic;
+  color: #374151;
+}
+.prose-blog blockquote p {
+  margin-bottom: 0;
+}
+
+/* Code */
+.prose-blog code {
+  font-family: var(--font-mono, ui-monospace, 'Cascadia Code', monospace);
+  font-size: 0.875em;
+  background: #f0f2fb;
+  color: #1e2a6b;
+  padding: 0.15em 0.4em;
+  border-radius: 0.25rem;
+}
+.prose-blog pre {
+  background: #1e2a6b;
+  color: #e2e8f0;
+  padding: 1.25em 1.5em;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.5em;
+  font-size: 0.875em;
+  line-height: 1.65;
+}
+.prose-blog pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Images */
+.prose-blog img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;
+  margin: 1.5em auto;
+}
+
+/* Horizontal rule */
+.prose-blog hr {
+  border: none;
+  border-top: 2px solid #e2ddd6;
+  margin: 2.5em 0;
+}
+
+/* Tables */
+.prose-blog table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+.prose-blog th {
+  background: #0f1840;
+  color: #fff;
+  padding: 0.6em 0.85em;
+  text-align: left;
+  font-weight: 600;
+}
+.prose-blog td {
+  padding: 0.55em 0.85em;
+  border-bottom: 1px solid #e2ddd6;
+}
+.prose-blog tr:nth-child(even) td {
+  background: #f8f7f5;
 }

@@ -73,13 +73,13 @@ const services = [
       'Heritage Roofing provides written inspection reports for Hico properties — pre-purchase inspections for home buyers, post-storm assessments, and annual checkups. Our reports include photographs and a clear condition assessment with no obligation to use our services for any resulting work.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Summer attic temperatures in the Hico area can significantly shorten shingle service life and increase cooling costs. We install ridge vents, soffit vents, and powered attic fans that keep heat moving out. Skylight installation is also available for homeowners looking to add natural light.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Heritage Roofing provides emergency response seven days a week for Hico properties after storm events create immediate openings in a roof. Our crews can deploy from our Stephenville office to Hico quickly to secure the damage and prevent additional water infiltration.',

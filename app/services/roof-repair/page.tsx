@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: 'Fast, reliable roof repair in Stephenville TX and Central Texas. Heritage Roofing fixes leaks, missing shingles, flashing, and storm damage. Call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/roof-repair',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Roof repair by Heritage Roofing, Inc. — Stephenville TX' }],
+    images: [{ url: 'https://heritageroofingtexas.com/roof-repair.jpg', width: 1440, height: 700, alt: 'Roof deck exposed after storm-damaged shingles removed — roof repair in progress by Heritage Roofing, Stephenville TX' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Roof Repair Stephenville TX | Heritage Roofing',
     description: 'Fast, reliable roof repair in Stephenville TX and Central Texas. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/roof-repair.jpg'],
   },
 }
 
@@ -68,7 +68,7 @@ export default function RoofRepairPage() {
       ]}
       relatedServices={[
         { label: 'Storm & Hail Damage', href: '/services/storm-hail-damage' },
-        { label: 'Emergency Repairs', href: '/services/emergency-repairs' },
+        { label: 'Emergency Roof Repair', href: '/services/emergency-repairs' },
         { label: 'Roof Inspections', href: '/services/roof-inspections' },
         { label: 'Roof Replacement', href: '/services/roof-replacement' },
         { label: 'Residential Roofing', href: '/services/residential-roofing' },

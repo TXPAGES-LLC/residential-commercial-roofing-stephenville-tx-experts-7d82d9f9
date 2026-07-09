@@ -5,9 +5,9 @@ export default function TrustStrip() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           <div className="text-center">
             <div className="font-display text-3xl md:text-4xl font-bold mb-1" style={{ color: '#4054b2' }}>
-              30+
+              1986
             </div>
-            <div className="text-sm md:text-base text-gray-700 font-medium">Years in Business</div>
+            <div className="text-sm md:text-base text-gray-700 font-medium">Serving Central Texas Since</div>
           </div>
 
           <div className="text-center">
@@ -19,16 +19,16 @@ export default function TrustStrip() {
 
           <div className="text-center">
             <div className="font-display text-3xl md:text-4xl font-bold mb-1" style={{ color: '#cc0000' }}>
-              A+
+              16
             </div>
-            <div className="text-sm md:text-base text-gray-700 font-medium">BBB Accredited</div>
+            <div className="text-sm md:text-base text-gray-700 font-medium">Communities Served</div>
           </div>
 
           <div className="text-center">
             <div className="font-display text-3xl md:text-4xl font-bold mb-1" style={{ color: '#cc0000' }}>
-              24/7
+              7 Days
             </div>
-            <div className="text-sm md:text-base text-gray-700 font-medium">Emergency Service</div>
+            <div className="text-sm md:text-base text-gray-700 font-medium">Emergency Roof Repair</div>
           </div>
         </div>
       </div>

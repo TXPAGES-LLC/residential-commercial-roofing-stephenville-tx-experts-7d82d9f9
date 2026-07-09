@@ -73,13 +73,13 @@ const services = [
       'Whether you\'re buying a property near the Hamilton courthouse square or managing a commercial building in the county, Heritage Roofing provides written inspection reports with photographs for pre-purchase, post-storm, and routine annual maintenance inspections.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Adequate attic ventilation is a practical necessity in Hamilton County summers. Without it, heat buildup accelerates shingle aging and increases cooling costs. We install ridge and soffit ventilation systems and quality skylights for homeowners wanting to improve natural light without creating leak risk.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'When a storm tears off shingles or a branch breaks through your roof, Heritage Roofing responds seven days a week for Hamilton properties. We deploy crews from our Central Texas offices to assess and secure damaged roofs as quickly as possible after an emergency call.',

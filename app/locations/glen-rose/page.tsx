@@ -73,13 +73,13 @@ const services = [
       'Glen Rose\'s real estate market includes older homes and vacation properties that benefit from a professional inspection before purchase. Heritage Roofing provides written reports with photos for pre-purchase, post-storm, and annual maintenance inspections.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Proper roof ventilation is a practical necessity in Somervell County summers. Ridge and soffit venting systems reduce attic heat buildup and extend shingle life. We also install quality skylights for homeowners wanting natural light in living spaces or interior areas of commercial buildings.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Storm damage in Glen Rose can leave roofs exposed when rain is imminent. Heritage Roofing provides emergency response seven days a week, deploying crews quickly to secure damaged roofs and prevent additional water intrusion while permanent repairs are scheduled.',

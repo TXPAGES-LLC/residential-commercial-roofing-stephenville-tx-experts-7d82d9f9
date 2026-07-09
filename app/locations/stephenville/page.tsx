@@ -107,13 +107,13 @@ const services = [
       'A professional inspection catches problems early and gives you leverage before buying a home or filing a claim. Heritage Roofing provides written inspection reports with photographs for pre-purchase evaluations, post-storm assessments, and routine annual maintenance checks for Stephenville properties.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Proper attic ventilation is critical in Central Texas — summer heat can drive attic temperatures above 150°F, shortening shingle life and raising cooling costs. Heritage Roofing installs ridge vents, soffit vents, and powered attic fans, along with Velux and similar skylight brands for natural light without leaks.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'When a branch falls through your roof or a storm blows off an entire section of shingles, you need a contractor on-site the same day — not next week. Heritage Roofing offers emergency response seven days a week for Stephenville and surrounding Erath County communities.',

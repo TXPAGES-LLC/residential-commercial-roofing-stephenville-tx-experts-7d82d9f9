@@ -73,13 +73,13 @@ const services = [
       'Weatherford\'s active real estate market makes pre-purchase roof inspections especially important. Heritage Roofing provides written reports with photographs for home buyers, property managers, and anyone needing documentation after a storm or for routine annual maintenance.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Parker County summers push attic temperatures well above living space temperatures, shortening shingle life and increasing air conditioning demand. Heritage Roofing installs properly designed ridge and soffit ventilation systems and quality skylights for Weatherford properties looking to improve performance and natural light.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'When a North Texas storm opens your Weatherford roof, Heritage Roofing provides emergency response seven days a week. We deploy crews quickly to assess and secure damage, preventing additional water intrusion while permanent repairs are scheduled.',

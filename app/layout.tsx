@@ -4,6 +4,7 @@ import Script from 'next/script'
 import './globals.css'
 import ScrollToTop from '@/components/ScrollToTop'
 import Analytics from '@/components/Analytics'
+import { BASE_URL } from '@/lib/site'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -21,7 +22,6 @@ const oswald = Oswald({
 const OG_TITLE = 'Heritage Roofing, Inc. | Stephenville TX Roofing Contractor'
 const OG_DESCRIPTION =
   'Trusted roofing contractor in Stephenville, TX since 1986. Residential & commercial roofing, storm & hail damage repair, roof inspections, and emergency service. Call 254-968-7663.'
-const BASE_URL = 'https://heritageroofingtexas.com'
 const OG_IMAGE = `${BASE_URL}/og-image.jpg`
 
 export const metadata: Metadata = {
@@ -29,8 +29,9 @@ export const metadata: Metadata = {
   description: OG_DESCRIPTION,
   keywords:
     'roofing Stephenville TX, roof repair Stephenville, commercial roofing Texas, residential roofing, storm damage repair, hail damage roof, Heritage Roofing Inc, roofing contractor since 1986',
+  // metadataBase resolves relative URLs in child page metadata (og:image, etc.)
+  // Do NOT set alternates.canonical here — each page sets its own canonical.
   metadataBase: new URL(BASE_URL),
-  alternates: { canonical: BASE_URL },
   icons: {
     icon: [
       { url: '/icon.svg', type: 'image/svg+xml' },
@@ -81,11 +82,37 @@ const orgSchema = {
       '@type': ['LocalBusiness', 'HomeAndConstructionBusiness'],
       '@id': 'https://heritageroofingtexas.com/#business',
       name: 'Heritage Roofing, Inc.',
+      description: 'Licensed and insured roofing contractor serving Central Texas since 1986. Residential and commercial roofing, storm and hail damage repair, roof inspections, and 7-day emergency repairs across Stephenville, Granbury, Brownwood, and surrounding communities.',
       url: 'https://heritageroofingtexas.com',
       logo: 'https://heritageroofingtexas.com/2026-logo.png',
       image: 'https://heritageroofingtexas.com/og-image.jpg',
       foundingDate: '1986',
+      // Primary office — Stephenville
       telephone: '+12549687663',
+      // Additional offices displayed on the site and in the footer
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+12549687663',
+          contactType: 'customer service',
+          areaServed: 'Stephenville Area',
+          availableLanguage: 'English',
+        },
+        {
+          '@type': 'ContactPoint',
+          telephone: '+18175730890',
+          contactType: 'customer service',
+          areaServed: 'Granbury Area',
+          availableLanguage: 'English',
+        },
+        {
+          '@type': 'ContactPoint',
+          telephone: '+13255105768',
+          contactType: 'customer service',
+          areaServed: 'Brownwood Area',
+          availableLanguage: 'English',
+        },
+      ],
       address: {
         '@type': 'PostalAddress',
         streetAddress: '1590 N Bates Street',
@@ -95,6 +122,7 @@ const orgSchema = {
         addressCountry: 'US',
       },
       geo: { '@type': 'GeoCoordinates', latitude: 32.2207, longitude: -98.2023 },
+      hasMap: 'https://www.google.com/maps?cid=12288339561500500951',
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',
@@ -103,22 +131,33 @@ const orgSchema = {
           closes: '17:00',
         },
       ],
+      // All 16 service area cities with dedicated location pages
       areaServed: [
-        { '@type': 'City', name: 'Stephenville', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Granbury', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Brownwood', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Dublin', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Glen Rose', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Mineral Wells', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Hamilton', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Hico', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Weatherford', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Eastland', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'De Leon', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Coleman', containedInPlace: 'TX' },
-        { '@type': 'City', name: 'Comanche', containedInPlace: 'TX' },
+        { '@type': 'City', name: 'Stephenville', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Granbury', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Brownwood', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Dublin', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Glen Rose', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Mineral Wells', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Hamilton', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Hico', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Weatherford', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Eastland', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'De Leon', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Coleman', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Comanche', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Bangs', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Goldthwaite', containedInPlace: { '@type': 'State', name: 'Texas' } },
+        { '@type': 'City', name: 'Santa Anna', containedInPlace: { '@type': 'State', name: 'Texas' } },
       ],
       priceRange: '$$',
+      // Verified third-party directory listings for entity disambiguation
+      sameAs: [
+        'https://www.google.com/maps?cid=12288339561500500951',
+        'https://www.yellowpages.com/stephenville-tx/mip/heritage-roofing-inc-8559766',
+        'https://www.superpages.com/stephenville-tx/bpp/heritage-roofing-inc-8559766',
+        'https://www.bing.com/maps?ss=ypid.YN838x14363180',
+      ],
     },
     {
       '@type': 'WebSite',
@@ -133,13 +172,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${oswald.variable} bg-[#f8f7f5]`}>
       <head>
-        {/* Preload the homepage LCP image so the browser discovers it immediately */}
-        <link
-          rel="preload"
-          as="image"
-          href="/12.jpg"
-          fetchPriority="high"
-        />
         {/* Preconnect to Google Fonts CDN to shave font latency */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

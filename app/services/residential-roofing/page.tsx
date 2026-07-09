@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: 'Expert residential roofing in Stephenville TX and Central Texas. New roof installation, replacement, and repair by Heritage Roofing. Licensed & insured. Call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/residential-roofing',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Residential roofing by Heritage Roofing, Inc. — Stephenville TX' }],
+    images: [{ url: 'https://heritageroofingtexas.com/12.jpg', width: 1440, height: 700, alt: 'Stone ranch home with new dark gray architectural shingles — residential roofing by Heritage Roofing, Stephenville TX' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Residential Roofing Stephenville TX | Heritage Roofing',
     description: 'Expert residential roofing in Stephenville TX. New installation, replacement, and repair. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/12.jpg'],
   },
 }
 
@@ -28,7 +28,7 @@ export default function ResidentialRoofingPage() {
       subtitle="Residential Roofing"
       pageUrl="https://heritageroofingtexas.com/services/residential-roofing"
       heroImg="/12.jpg"
-      heroImgAlt="Residential roofing installation Stephenville TX"
+      heroImgAlt="Single-story stone ranch home with new dark gray architectural shingles — Heritage Roofing, Stephenville TX"
       description="Heritage Roofing installs, replaces, and repairs residential roofs across Stephenville and Central Texas. From architectural shingles to metal roofing, we match the right system to your home, budget, and climate."
       benefits={[
         'Licensed & insured roofing contractor',
@@ -71,7 +71,7 @@ export default function ResidentialRoofingPage() {
         { label: 'Roof Replacement', href: '/services/roof-replacement' },
         { label: 'Storm & Hail Damage', href: '/services/storm-hail-damage' },
         { label: 'Roof Inspections', href: '/services/roof-inspections' },
-        { label: 'Emergency Repairs', href: '/services/emergency-repairs' },
+        { label: 'Emergency Roof Repair', href: '/services/emergency-repairs' },
       ]}
     />
   )

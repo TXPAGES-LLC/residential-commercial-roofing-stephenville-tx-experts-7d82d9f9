@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: 'Emergency roof repair in Stephenville TX and Central Texas. Heritage Roofing available 7 days a week for storm damage, active leaks, and urgent roof issues. Call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/emergency-repairs',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Emergency roof repair — Heritage Roofing, Inc. available 7 days' }],
+    images: [{ url: 'https://heritageroofingtexas.com/20200602-152806.jpg', width: 1440, height: 700, alt: 'Wind-damaged shingles near pipe penetration requiring emergency roof repair — Heritage Roofing, Central Texas' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Emergency Roof Repairs | Heritage Roofing — 7 Days a Week',
     description: 'Emergency roof repair in Stephenville TX and Central Texas. Available 7 days a week. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/20200602-152806.jpg'],
   },
 }
 
@@ -25,7 +25,7 @@ export default function EmergencyRepairsPage() {
   return (
     <ServicePageLayout
       title="Emergency Roof Repairs in Texas"
-      subtitle="Emergency Repairs — 7 Days/Week"
+      subtitle="Emergency Roof Repair — 7 Days/Week"
       pageUrl="https://heritageroofingtexas.com/services/emergency-repairs"
       heroImg="/20200602-152806.jpg"
       heroImgAlt="Wind-damaged shingles near pipe penetration requiring emergency roof repair — Heritage Roofing Central Texas"

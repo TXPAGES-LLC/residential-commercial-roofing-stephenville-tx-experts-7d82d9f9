@@ -74,13 +74,13 @@ const services = [
       'Whether you\'re purchasing a property near Santa Anna, responding to an insurance claim, or simply checking your roof before storm season, Heritage Roofing provides honest written inspections with photos and a clear summary of conditions.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'In Central-West Texas summers, an under-ventilated attic adds years of wear to your shingles and drives up cooling costs. We install ridge vents, soffit vents, powered attic fans, and quality skylights for Santa Anna homeowners who want a properly breathing roof system.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'When a severe storm peels back roofing or creates an opening into your attic, Heritage Roofing is available seven days a week for emergency response. We tarp and secure your structure to prevent further water intrusion until a full repair can be completed.',

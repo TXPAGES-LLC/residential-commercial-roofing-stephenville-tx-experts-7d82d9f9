@@ -5,6 +5,7 @@ import SiteFooter from '@/components/SiteFooter'
 import MobileCallButton from '@/components/MobileCallButton'
 import ContactCallButtons from '@/components/ContactCallButtons'
 import TrackedCallLink from '@/components/TrackedCallLink'
+import TrackedOutboundLink from '@/components/TrackedOutboundLink'
 
 export const metadata: Metadata = {
   title: 'Contact Heritage Roofing, Inc. | Stephenville TX Roofing Contractor',
@@ -168,14 +169,14 @@ export default function ContactPage() {
               <div className="mt-6 bg-white rounded-xl border border-[#e2ddd6] p-6">
                 <p className="font-semibold text-gray-900 mb-1">Happy with our work?</p>
                 <p className="text-sm text-gray-600 mb-4">Leave us a review on Google — it helps homeowners in your area find a roofer they can trust.</p>
-                <a
+                <TrackedOutboundLink
                   href={`${GBP_URL}&action=write_review`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  label="Leave a Google Review"
+                  location="contact_page"
                   className="inline-flex items-center gap-2 border-2 border-[#4054b2] text-[#4054b2] hover:bg-[#4054b2] hover:text-white font-semibold text-sm px-5 py-2.5 rounded transition-colors"
                 >
                   Leave a Google Review
-                </a>
+                </TrackedOutboundLink>
               </div>
             </div>
           </div>
@@ -309,7 +310,7 @@ export default function ContactPage() {
               { label: 'Roof Replacement', href: '/services/roof-replacement' },
               { label: 'Storm & Hail Damage', href: '/services/storm-hail-damage' },
               { label: 'Roof Inspections', href: '/services/roof-inspections' },
-              { label: 'Emergency Repairs', href: '/services/emergency-repairs' },
+              { label: 'Emergency Roof Repair', href: '/services/emergency-repairs' },
             ].map((s) => (
               <Link
                 key={s.href}

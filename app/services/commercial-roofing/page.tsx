@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: 'Commercial roofing in Stephenville, Granbury & Central Texas. TPO, EPDM, metal, and flat roofing systems for businesses. Heritage Roofing — call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/commercial-roofing',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Commercial roofing by Heritage Roofing, Inc. — Stephenville TX' }],
+    images: [{ url: 'https://heritageroofingtexas.com/tpo-roof.jpg', width: 1440, height: 700, alt: 'White TPO flat commercial roof with pipe boots — commercial roofing by Heritage Roofing, Stephenville TX' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Commercial Roofing Stephenville TX | Heritage Roofing',
     description: 'Commercial roofing in Stephenville, Granbury & Central Texas. TPO, EPDM, metal, and flat roofing for businesses. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/tpo-roof.jpg'],
   },
 }
 
@@ -70,8 +70,8 @@ export default function CommercialRoofingPage() {
         { label: 'Roof Inspections', href: '/services/roof-inspections' },
         { label: 'Roof Repair', href: '/services/roof-repair' },
         { label: 'Storm & Hail Damage', href: '/services/storm-hail-damage' },
-        { label: 'Emergency Repairs', href: '/services/emergency-repairs' },
-        { label: 'Skylights & Ventilation', href: '/services/skylights-ventilation' },
+        { label: 'Emergency Roof Repair', href: '/services/emergency-repairs' },
+        { label: 'Skylights & Attic Ventilation', href: '/services/skylights-ventilation' },
       ]}
     />
   )

@@ -74,13 +74,13 @@ const services = [
       'Whether you are buying a Brownwood property, filing a storm claim, or just tracking your roof\'s condition, Heritage Roofing provides professional written inspection reports. We document current condition, estimate remaining service life, and note any deficiencies found — all with photographs.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Attic temperatures in Brownwood regularly exceed 150°F in summer, dramatically shortening shingle life and increasing air conditioning loads. Properly installed ridge and soffit venting brings those temperatures down. Heritage Roofing also installs quality skylights that hold their seals through West Texas heat cycles.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Severe weather in Brown County can cause immediate structural roof damage. Heritage Roofing offers emergency response seven days a week — on-site assessment, emergency tarping, and same-day repairs to prevent water intrusion while a permanent fix is arranged.',

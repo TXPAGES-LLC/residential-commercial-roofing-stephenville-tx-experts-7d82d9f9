@@ -60,6 +60,23 @@ export function trackFormSubmit(formName: string, location: string) {
   })
 }
 
+/**
+ * Fired when a user clicks an outbound link leaving the site (GBP, review, maps).
+ * Uses the GA4 recommended event `click` with standard `outbound` parameter.
+ *
+ * @param destination  The full outbound URL
+ * @param label        Human-readable description, e.g. 'Google Maps', 'Leave Review'
+ * @param location     Where on the page, e.g. 'contact_page', 'footer'
+ */
+export function trackOutboundClick(destination: string, label: string, location: string) {
+  fire('click', {
+    outbound: true,
+    link_url: destination,
+    link_text: label,
+    button_location: location,
+  })
+}
+
 // Extend global Window type once so no component needs its own declare global
 declare global {
   interface Window {

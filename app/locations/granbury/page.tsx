@@ -74,13 +74,13 @@ const services = [
       'Before purchasing a Granbury home or filing an insurance claim, a professional roof inspection gives you clear, documented information. Heritage Roofing provides written inspection reports with photographs covering condition, age, remaining life, and any deficiencies found.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Lakefront and wooded properties in the Granbury area can accumulate moisture in attic spaces, which accelerates shingle and decking deterioration. Heritage Roofing installs properly sized ridge vents, soffit vents, and powered attic fans, along with quality skylight brands that seal reliably in Texas weather.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Storm damage in the Granbury area can leave roofs exposed overnight. Heritage Roofing offers emergency response seven days a week — tarping, temporary repairs, and same-day assessment to protect your home while a permanent repair is scheduled.',

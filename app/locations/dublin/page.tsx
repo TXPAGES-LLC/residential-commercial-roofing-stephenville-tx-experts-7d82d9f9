@@ -74,13 +74,13 @@ const services = [
       'Whether you\'re purchasing a home in Dublin, dealing with an insurance claim, or just want to know the condition of your roof before summer storm season, Heritage Roofing provides written inspections with photographs. We give you an honest assessment — not a sales pitch.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Attic heat buildup is a real problem in Central Texas summers, and Dublin is no exception. Poor ventilation shortens shingle lifespan and drives up energy bills. We install ridge vents, soffit vents, powered attic fans, and quality skylights that add light without adding leak risk.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Storm damage doesn\'t wait for business hours. Heritage Roofing offers emergency response seven days a week for Dublin homeowners and businesses when a tree falls, wind peels back roofing material, or a sudden storm creates an opening in your roof.',

@@ -74,13 +74,13 @@ const services = [
       'Pre-purchase inspections, post-storm assessments, and annual checkups for De Leon properties. We provide a written report with photographs — not a verbal summary — so you have documentation for insurance purposes or your own records.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Adequate attic ventilation reduces heat load and extends the life of your roofing system — critical in the De Leon area where summer temperatures push attic temps well above 140°F. We install ridge and soffit venting systems as well as quality skylights for natural light without leak risk.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'When severe weather creates an immediate opening in your roof, Heritage Roofing responds seven days a week. De Leon is within our regular service area and our crews can be on-site quickly after a storm event to secure your property and prevent further water damage.',

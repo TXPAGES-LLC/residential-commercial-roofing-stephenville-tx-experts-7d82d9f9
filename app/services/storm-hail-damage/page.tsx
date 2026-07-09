@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: 'Storm and hail damaged your roof? Heritage Roofing responds fast across Stephenville TX and Central Texas. Insurance claim support, emergency tarping & repair. Call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/storm-hail-damage',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Storm and hail damage roof repair — Heritage Roofing, Inc.' }],
+    images: [{ url: 'https://heritageroofingtexas.com/storm-damage.jpg', width: 1440, height: 700, alt: 'Chalk circles marking hail impact points on asphalt shingles — storm damage inspection by Heritage Roofing, Texas' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Storm & Hail Damage Roof Repair | Heritage Roofing',
     description: 'Storm or hail damaged your roof? Heritage Roofing responds fast across Central Texas. Insurance claim support. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/storm-damage.jpg'],
   },
 }
 
@@ -70,7 +70,7 @@ export default function StormHailDamagePage() {
       relatedServices={[
         { label: 'Roof Repair', href: '/services/roof-repair' },
         { label: 'Roof Replacement', href: '/services/roof-replacement' },
-        { label: 'Emergency Repairs', href: '/services/emergency-repairs' },
+        { label: 'Emergency Roof Repair', href: '/services/emergency-repairs' },
         { label: 'Roof Inspections', href: '/services/roof-inspections' },
         { label: 'Residential Roofing', href: '/services/residential-roofing' },
       ]}

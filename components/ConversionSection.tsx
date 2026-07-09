@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { trackCallClick } from '@/lib/gtag'
+import { trackCallClick, trackCtaClick, trackOutboundClick } from '@/lib/gtag'
 
 export default function ConversionSection() {
   return (
@@ -27,6 +27,7 @@ export default function ConversionSection() {
           </a>
           <Link
             href="/contact"
+            onClick={() => trackCtaClick('Get Free Estimate', 'conversion_section', '/contact')}
             className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-[#0f1840] font-bold px-8 py-4 rounded text-lg transition-colors w-full sm:w-auto"
           >
             Get Free Estimate
@@ -39,6 +40,7 @@ export default function ConversionSection() {
             href="https://www.google.com/maps?cid=12288339561500500951"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackOutboundClick('https://www.google.com/maps?cid=12288339561500500951', 'Google Maps — Stephenville Office', 'conversion_section')}
             className="not-italic text-sm text-blue-300 hover:text-yellow-300 transition-colors block mb-3"
           >
             <address className="not-italic">1590 N Bates Street, Stephenville, TX 76401</address>
@@ -46,7 +48,7 @@ export default function ConversionSection() {
           <a href="tel:2549687663" onClick={() => trackCallClick('254-968-7663', 'conversion_section_footer')} className="text-yellow-400 hover:text-yellow-300 text-lg font-bold transition-colors">
             254-968-7663
           </a>
-          <p className="text-xs text-blue-300 mt-4">Emergency Repairs Available 7 Days a Week</p>
+          <p className="text-xs text-blue-300 mt-4">Emergency Roof Repair Available 7 Days a Week</p>
         </div>
       </div>
     </section>

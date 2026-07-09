@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     description: 'Professional roof inspections in Stephenville TX and Central Texas. Written report, photos, and honest recommendations. Free estimate. Heritage Roofing — call 254-968-7663.',
     url: 'https://heritageroofingtexas.com/services/roof-inspections',
     type: 'website',
-    images: [{ url: 'https://heritageroofingtexas.com/og-image.jpg', width: 1200, height: 630, alt: 'Roof inspection by Heritage Roofing, Inc. — Stephenville TX' }],
+    images: [{ url: 'https://heritageroofingtexas.com/img-1081.jpg', width: 1440, height: 700, alt: 'Heritage Roofing inspector examining completed commercial metal roof in Central Texas' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Roof Inspections Stephenville TX | Heritage Roofing',
     description: 'Professional roof inspections in Stephenville TX and Central Texas. Written report with photos. Call 254-968-7663.',
-    images: ['https://heritageroofingtexas.com/og-image.jpg'],
+    images: ['https://heritageroofingtexas.com/img-1081.jpg'],
   },
 }
 

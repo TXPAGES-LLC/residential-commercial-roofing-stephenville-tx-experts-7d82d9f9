@@ -74,13 +74,13 @@ const services = [
       'Whether you\'re buying a home in Eastland, preparing an insurance claim, or checking on your roof before storm season, Heritage Roofing provides detailed written inspections with photographs. Our reports give you an honest assessment of condition and any needed repairs.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Attic heat is a serious problem across West Texas summers, and Eastland is no exception. Poor attic ventilation shortens shingle life and drives up energy costs. We install ridge vents, soffit vents, powered attic fans, and quality skylights that add natural light without creating leak points.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Storm damage doesn\'t follow business hours. Heritage Roofing offers emergency response seven days a week for Eastland homeowners and businesses when wind, hail, or falling debris creates an urgent opening in your roof.',

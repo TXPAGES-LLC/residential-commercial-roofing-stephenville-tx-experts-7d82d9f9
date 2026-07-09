@@ -74,13 +74,13 @@ const services = [
       'A written inspection report from Heritage Roofing gives Coleman homeowners and buyers a clear picture of roof condition. Whether you need pre-purchase documentation, storm damage evidence, or a routine assessment before severe weather season, our inspections are honest and photo-supported.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'In the heat of a Coleman County summer, inadequate attic ventilation accelerates shingle wear and raises energy costs significantly. Heritage Roofing installs ridge vents, baffled soffit vents, powered attic fans, and quality skylights to keep your roof system performing as designed.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Severe weather can compromise a roof at any hour. Heritage Roofing offers emergency response seven days a week for Coleman homeowners and businesses when a storm creates an urgent opening that cannot wait until Monday morning.',

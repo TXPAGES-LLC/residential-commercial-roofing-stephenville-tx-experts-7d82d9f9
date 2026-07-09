@@ -74,13 +74,13 @@ const services = [
       'Whether you\'re buying a home near Bangs, filing an insurance claim, or planning ahead for storm season, a Heritage Roofing inspection gives you a photo-documented, written assessment of your roof\'s actual condition and remaining service life.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'An improperly ventilated attic in Central Texas can reach temperatures that cause premature shingle failure and spike cooling bills. We install ridge vents, soffit vents, powered fans, and quality skylights for Bangs homeowners who want a roof that breathes and lasts.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'When a storm creates an immediate opening in your roof, Heritage Roofing is available seven days a week for emergency response in Bangs and throughout Brown County. We secure the structure and prevent additional water intrusion until a permanent repair is completed.',

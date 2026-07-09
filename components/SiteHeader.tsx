@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { trackCallClick } from '@/lib/gtag'
 
 const PHONE_MAIN = '254-968-7663'
 
@@ -12,8 +13,8 @@ const services = [
   { label: 'Roof Replacement', href: '/services/roof-replacement' },
   { label: 'Storm & Hail Damage', href: '/services/storm-hail-damage' },
   { label: 'Roof Inspections', href: '/services/roof-inspections' },
-  { label: 'Skylights & Ventilation', href: '/services/skylights-ventilation' },
-  { label: 'Emergency Repairs', href: '/services/emergency-repairs' },
+  { label: 'Skylights & Attic Ventilation', href: '/services/skylights-ventilation' },
+  { label: 'Emergency Roof Repair', href: '/services/emergency-repairs' },
 ]
 
 const areaGroups = [
@@ -71,7 +72,7 @@ export default function SiteHeader() {
           {/* On mobile show only the phone number prominently */}
           <p className="text-white text-xs sm:hidden font-semibold">Emergency service available 7 days</p>
           <div className="flex items-center gap-3 text-xs text-white">
-            <a href={`tel:${PHONE_MAIN.replace(/-/g, '')}`} className="hover:text-yellow-300 transition-colors font-semibold">
+            <a href={`tel:${PHONE_MAIN.replace(/-/g, '')}`} onClick={() => trackCallClick(PHONE_MAIN, 'header_topbar')} className="hover:text-yellow-300 transition-colors font-semibold">
               <span className="hidden sm:inline">Stephenville: </span>{PHONE_MAIN}
             </a>
             <span className="text-blue-300 hidden md:inline">|</span>
@@ -183,12 +184,14 @@ export default function SiteHeader() {
             </div>
 
             <Link href="/gallery" className="text-white text-sm font-medium px-3 py-2 rounded hover:bg-white/10 transition-colors">Gallery</Link>
+            <Link href="/blog" className="text-white text-sm font-medium px-3 py-2 rounded hover:bg-white/10 transition-colors">Blog</Link>
             <Link href="/contact" className="text-white text-sm font-medium px-3 py-2 rounded hover:bg-white/10 transition-colors">Contact</Link>
           </div>
 
           {/* CTA phone */}
           <a
             href={`tel:${PHONE_MAIN.replace(/-/g, '')}`}
+            onClick={() => trackCallClick(PHONE_MAIN, 'header_nav_cta')}
             className="hidden lg:flex items-center gap-2 bg-[#cc0000] hover:bg-[#aa0000] text-white text-sm font-bold px-4 py-2 rounded transition-colors"
             aria-label={`Call Heritage Roofing at ${PHONE_MAIN}`}
           >
@@ -219,7 +222,7 @@ export default function SiteHeader() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div style={{ backgroundColor: '#0f1840' }} className="lg:hidden border-t border-white/10">
+          <div style={{ backgroundColor: '#0f1840' }} className="lg:hidden border-t border-white/10 max-h-[calc(100dvh-5rem)] overflow-y-auto overscroll-contain">
             <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
               <Link href="/" onClick={() => setMobileOpen(false)} className="text-white text-sm font-medium py-2 border-b border-white/10">Home</Link>
 
@@ -274,10 +277,12 @@ export default function SiteHeader() {
               </div>
 
               <Link href="/gallery" onClick={() => setMobileOpen(false)} className="text-white text-sm font-medium py-2 border-b border-white/10">Gallery</Link>
+              <Link href="/blog" onClick={() => setMobileOpen(false)} className="text-white text-sm font-medium py-2 border-b border-white/10">Blog</Link>
               <Link href="/contact" onClick={() => setMobileOpen(false)} className="text-white text-sm font-medium py-2 border-b border-white/10">Contact</Link>
 
               <a
                 href="tel:2549687663"
+                onClick={() => trackCallClick(PHONE_MAIN, 'header_mobile_menu')}
                 className="mt-3 flex items-center justify-center gap-2 bg-[#cc0000] hover:bg-[#aa0000] active:bg-[#880000] text-white font-bold py-4 px-4 rounded text-base transition-colors"
               >
                 <svg className="w-5 h-5 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

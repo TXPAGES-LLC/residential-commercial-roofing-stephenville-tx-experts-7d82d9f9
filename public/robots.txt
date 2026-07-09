@@ -3,4 +3,7 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 
+# Canonical host — prevents crawling of www or HTTP variants
+Host: https://heritageroofingtexas.com
+
 Sitemap: https://heritageroofingtexas.com/sitemap.xml

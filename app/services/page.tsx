@@ -68,14 +68,14 @@ const services = [
     alt: 'Roof inspection showing granule loss and impact damage on shingles — Heritage Roofing',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     description: 'Skylight installation and attic ventilation solutions that protect your roof and reduce energy costs.',
     href: '/services/skylights-ventilation',
     img: '/20200207-103254.jpg',
     alt: 'Roof vent and pipe boot on asphalt shingle roof — Heritage Roofing ventilation services TX',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     description: "Available 7 days a week. When a storm hits or a leak can't wait, call Heritage Roofing.",
     href: '/services/emergency-repairs',
     img: '/20200602-152806.jpg',
@@ -128,7 +128,7 @@ export default function ServicesPage() {
                   <div className="p-5">
                     <h2 className="font-serif font-bold text-[#1e2a6b] text-base mb-2 group-hover:text-[#4054b2] transition-colors">{service.title}</h2>
                     <p className="font-sans text-gray-600 text-sm leading-relaxed">{service.description}</p>
-                    <span className="inline-flex items-center gap-1 text-[#4054b2] font-sans text-sm font-semibold mt-3">Learn More <span aria-hidden="true">→</span></span>
+                    <span className="inline-flex items-center gap-1 text-[#4054b2] font-sans text-sm font-semibold mt-3">{service.title} details <span aria-hidden="true">→</span></span>
                   </div>
                 </Link>
               ))}

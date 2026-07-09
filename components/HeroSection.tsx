@@ -5,6 +5,9 @@ import { trackCallClick, trackCtaClick } from '@/lib/gtag'
 
 export default function HeroSection() {
   return (
+    <>
+    {/* Preload the LCP image scoped to this component (homepage hero) */}
+    <link rel="preload" as="image" href="/12.jpg" fetchPriority="high" />
     <section
       style={{ backgroundColor: '#0f1840' }}
       className="relative text-white min-h-[480px] sm:min-h-[560px] lg:min-h-[640px] flex items-center"
@@ -52,27 +55,24 @@ export default function HeroSection() {
           </div>
 
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-yellow-300 font-medium">
-            <div className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
-              </svg>
-              Emergency Repairs Available
-            </div>
-            <div className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
-              </svg>
-              Licensed &amp; Insured
-            </div>
-            <div className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
-              </svg>
-              Serving Central Texas
-            </div>
+            {[
+              'Licensed & Insured',
+              'Free Estimates',
+              'Workmanship Warranty',
+              'Emergency Repair — 7 Days',
+              'Serving TX Since 1986',
+            ].map((chip) => (
+              <div key={chip} className="flex items-center gap-1.5">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
+                </svg>
+                {chip}
+              </div>
+            ))}
           </div>
         </div>
       </div>
     </section>
+    </>
   )
 }

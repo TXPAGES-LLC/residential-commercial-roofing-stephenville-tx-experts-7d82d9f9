@@ -10,8 +10,8 @@ const services = [
   { label: 'Roof Replacement', href: '/services/roof-replacement' },
   { label: 'Storm & Hail Damage', href: '/services/storm-hail-damage' },
   { label: 'Roof Inspections', href: '/services/roof-inspections' },
-  { label: 'Skylights & Ventilation', href: '/services/skylights-ventilation' },
-  { label: 'Emergency Repairs', href: '/services/emergency-repairs' },
+  { label: 'Skylights & Attic Ventilation', href: '/services/skylights-ventilation' },
+  { label: 'Emergency Roof Repair', href: '/services/emergency-repairs' },
 ]
 
 const areaGroups = [
@@ -55,9 +55,10 @@ const areaGroups = [
 ]
 
 const company = [
-  { label: 'Our Services', href: '/services' },
+  { label: 'Roofing Services', href: '/services' },
   { label: 'Service Areas', href: '/locations' },
   { label: 'Project Gallery', href: '/gallery' },
+  { label: 'Roofing Blog', href: '/blog' },
   { label: 'Contact Us', href: '/contact' },
 ]
 
@@ -133,7 +134,7 @@ export default function SiteFooter() {
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.24 1.01l-2.21 2.21z"/>
               </svg>
-              Call Now
+              Call 254-968-7663
             </a>
           </div>
 
@@ -147,7 +148,7 @@ export default function SiteFooter() {
               href="/locations"
               className="inline-flex items-center gap-1 text-sm font-semibold text-white border border-white/30 hover:border-white hover:bg-white/10 px-4 py-2 rounded transition-colors"
             >
-              View All Areas →
+              All Service Areas in Central Texas →
             </Link>
           </div>
         </div>
@@ -182,8 +183,8 @@ export default function SiteFooter() {
 
       </div>
 
-      {/* Bottom bar — pb-fab ensures content clears the mobile FAB on short viewports */}
-      <div style={{ backgroundColor: '#070e2a' }} className="py-4 px-4 pb-fab lg:pb-4">
+      {/* Bottom bar — pb-fab clears the fixed mobile call FAB (lg:pb-4 resets on desktop where FAB is hidden) */}
+      <div style={{ backgroundColor: '#070e2a' }} className="py-4 px-4 pb-fab lg:!pb-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-blue-500">
           <p>&copy; {new Date().getFullYear()} Heritage Roofing, Inc. All rights reserved.</p>
           <div className="flex flex-col sm:flex-row items-center gap-3">

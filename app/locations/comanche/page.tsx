@@ -74,13 +74,13 @@ const services = [
       'Whether you\'re buying property in Comanche, navigating an insurance claim, or checking on your roof ahead of storm season, Heritage Roofing provides written inspections with photographs and an honest assessment of your roof\'s condition.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Proper attic ventilation is critical in Central Texas summers. Without it, heat buildup accelerates shingle aging and raises energy bills. We install ridge vents, soffit vents, powered attic fans, and quality skylights for Comanche homes and commercial properties.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Storm damage doesn\'t wait for business hours. Heritage Roofing offers emergency response seven days a week for Comanche homeowners and businesses when severe weather creates an urgent opening in your roof.',

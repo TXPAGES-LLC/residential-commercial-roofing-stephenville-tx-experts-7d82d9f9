@@ -74,13 +74,13 @@ const services = [
       'Planning to buy property in Goldthwaite or dealing with an insurance claim? Heritage Roofing provides written roof inspections with photographs — giving you an honest, documented assessment of condition and any repairs needed, not a sales pitch.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Attic temperatures in Central Texas summers can exceed 150°F without proper ventilation, rapidly aging shingles and raising cooling bills. We install ridge vents, soffit vents, powered attic fans, and quality skylights for Goldthwaite homes and commercial buildings.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'Severe weather can create urgent roofing situations at any hour. Heritage Roofing offers emergency response seven days a week for Goldthwaite homeowners and businesses when storm damage creates an opening that can\'t wait until Monday.',

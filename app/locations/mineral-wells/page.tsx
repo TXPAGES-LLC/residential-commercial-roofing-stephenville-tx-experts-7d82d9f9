@@ -74,13 +74,13 @@ const services = [
       'Pre-purchase roof inspections are especially valuable in Mineral Wells where older housing stock may have undisclosed deferred maintenance. Heritage Roofing provides written reports with photographs for pre-purchase, post-storm, and annual maintenance inspections.',
   },
   {
-    title: 'Skylights & Ventilation',
+    title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
       'Effective attic ventilation in a Mineral Wells summer can mean the difference between a shingle roof lasting 20 years or 12. We install proper ridge and soffit ventilation systems along with quality skylights that add natural light without creating leak points.',
   },
   {
-    title: 'Emergency Repairs',
+    title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
       'When a storm opens your roof and rain is coming, Heritage Roofing responds seven days a week for Mineral Wells properties. Our crews can be on-site quickly to secure the damage and prevent further water infiltration while permanent repairs are arranged.',
