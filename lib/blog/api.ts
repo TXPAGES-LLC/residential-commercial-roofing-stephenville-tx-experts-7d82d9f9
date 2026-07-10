@@ -1,20 +1,8 @@
-import { BLOG_DATA_URL } from './source'
 import type { BlogData, BlogPost } from './types'
-
-const EMPTY: BlogData = {
-  collection: { title: 'Blog', navLabel: 'Blog', basePath: '/blog' },
-  posts: [],
-}
+import localPosts from './posts.json'
 
 export async function getBlogData(): Promise<BlogData> {
-  try {
-    const res = await fetch(BLOG_DATA_URL, { cache: 'no-store' })
-    if (!res.ok) return EMPTY
-    const data: BlogData = await res.json()
-    return data
-  } catch {
-    return EMPTY
-  }
+  return localPosts as BlogData
 }
 
 /** Returns only posts whose publishAt is <= now, newest first. */

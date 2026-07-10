@@ -144,7 +144,7 @@ export default function ContactPage() {
               <div className="rounded-xl overflow-hidden border border-[#e2ddd6] shadow-sm aspect-[4/3] w-full">
                 <iframe
                   title="Heritage Roofing, Inc. — 1590 N Bates Street, Stephenville TX"
-                  src="https://www.google.com/maps/embed?cid=12288339561500500951"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.4587!2d-98.2023!3d32.2207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ef9e8f2c2c0e1%3A0xaab0e7d95fcb1dd7!2sHeritage%20Roofing%2C%20Inc.!5e0!3m2!1sen!2sus!4v1"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
