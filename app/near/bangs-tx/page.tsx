@@ -399,7 +399,7 @@ export default function BangsPage() {
                 <a href="tel:3255105768" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   325-510-5768
                 </a>
-                <Link href="/locations/brownwood" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/brownwood-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Brownwood page →
                 </Link>
               </div>
@@ -412,7 +412,7 @@ export default function BangsPage() {
                 <a href="tel:2549687663" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   254-968-7663
                 </a>
-                <Link href="/locations/stephenville" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/stephenville-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Stephenville page →
                 </Link>
               </div>
@@ -425,7 +425,7 @@ export default function BangsPage() {
                 <a href="tel:8175730890" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   817-573-0890
                 </a>
-                <Link href="/locations/granbury" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/granbury-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Granbury page →
                 </Link>
               </div>

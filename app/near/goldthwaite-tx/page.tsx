@@ -5,116 +5,116 @@ import SiteFooter from '@/components/SiteFooter'
 import MobileCallButton from '@/components/MobileCallButton'
 
 export const metadata: Metadata = {
-  title: 'Roofing Services in Eastland, TX | Heritage Roofing, Inc.',
+  title: 'Roofing Services in Goldthwaite, TX | Heritage Roofing, Inc.',
   description:
-    'Roofing contractor serving Eastland, TX and Eastland County since 1986. Residential roofing, roof repair, storm damage, and emergency services. Call Heritage Roofing at 254-968-7663.',
-  alternates: { canonical: 'https://heritageroofingtexas.com/locations/eastland' },
+    'Roofing contractor serving Goldthwaite, TX and Mills County since 1986. Residential roofing, roof repair, storm damage, and emergency services. Call Heritage Roofing at 325-510-5768.',
+  alternates: { canonical: 'https://heritageroofingtexas.com/locations/goldthwaite' },
   openGraph: {
-    title: 'Roofing Services in Eastland, TX | Heritage Roofing, Inc.',
+    title: 'Roofing Services in Goldthwaite, TX | Heritage Roofing, Inc.',
     description:
-      'Local roofing contractor serving Eastland and Eastland County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
-    url: 'https://heritageroofingtexas.com/locations/eastland',
+      'Local roofing contractor serving Goldthwaite and Mills County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
+    url: 'https://heritageroofingtexas.com/locations/goldthwaite',
     type: 'website',
     images: [
       {
         url: 'https://heritageroofingtexas.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Heritage Roofing, Inc. — Roofing Services in Eastland, TX',
+        alt: 'Heritage Roofing, Inc. — Roofing Services in Goldthwaite, TX',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Roofing Services in Eastland, TX | Heritage Roofing, Inc.',
-    description: 'Local roofing contractor serving Eastland and Eastland County. Residential, commercial, storm damage, and emergency roof repairs.',
+    title: 'Roofing Services in Goldthwaite, TX | Heritage Roofing, Inc.',
+    description: 'Local roofing contractor serving Goldthwaite and Mills County. Residential, commercial, storm damage, and emergency roof repairs.',
     images: ['https://heritageroofingtexas.com/og-image.jpg'],
   },
 }
 
 const GBP_CID = '12288339561500500951'
-const PHONE = '254-968-7663'
-const PHONE_HREF = 'tel:2549687663'
+const PHONE = '325-510-5768'
+const PHONE_HREF = 'tel:3255105768'
 
 const services = [
   {
     title: 'Residential Roofing',
     href: '/services/residential-roofing',
     description:
-      'Eastland homes range from older bungalows near the historic courthouse square to newer neighborhoods on the city outskirts — each with different roofing needs. Heritage Roofing installs architectural shingles, metal roofing, and tile on Eastland residences, with material recommendations based on your home\'s structure and your budget.',
+      'Goldthwaite homes — from ranch-style residences to working-farm properties throughout Mills County — need roofing that holds up to the heat and weather exposure of Central Texas. Heritage Roofing installs architectural shingles, metal roofing, and tile, with recommendations suited to each home\'s needs.',
   },
   {
     title: 'Commercial Roofing',
     href: '/services/commercial-roofing',
     description:
-      'From retail buildings along I-20 to agricultural and industrial structures around Eastland County, Heritage Roofing provides TPO, metal panel, and built-up roofing systems for local businesses. We work around your schedule and provide written warranties on all commercial installations.',
+      'Whether it\'s a downtown storefront, a feed store, or an agricultural processing facility near Goldthwaite, Heritage Roofing provides TPO, metal panel, and built-up roofing systems for Mills County businesses. We schedule around your operations and back all commercial work with written warranties.',
   },
   {
     title: 'Roof Repair',
     href: '/services/roof-repair',
     description:
-      'Small leaks and minor storm damage can escalate quickly in Eastland\'s climate. Our repair crews identify the source of leaks and fix damaged shingles, pipe boots, ridge caps, and valley flashing before moisture reaches your decking or interior ceiling materials.',
+      'In Goldthwaite\'s climate, minor roofing issues become water intrusion problems fast. Our crews identify leaks at the source and repair cracked shingles, deteriorated pipe boots, valley flashing failures, and ridge cap damage before moisture reaches your decking or interior.',
   },
   {
     title: 'Roof Replacement',
     href: '/services/roof-replacement',
     description:
-      'When a repair is no longer cost-effective, Heritage Roofing handles complete tear-off and replacement for Eastland homes and commercial properties. We walk you through material options, provide a written estimate, and complete most residential replacements in one to two days.',
+      'When a Goldthwaite roof has reached the end of its useful life, Heritage Roofing handles complete tear-off, material selection, and new installation. We explain your material options, provide a written estimate with no surprise costs, and complete most residential jobs in one to two days.',
   },
   {
     title: 'Storm & Hail Damage',
     href: '/services/storm-hail-damage',
     description:
-      'Eastland County sees significant hail activity during spring storm season. Heritage Roofing provides thorough post-storm inspections, photographic documentation, and written reports suitable for insurance claims. We meet with adjusters on-site and manage the full restoration from start to finish.',
+      'Mills County sees active spring storm seasons with hail events that can cause significant roof damage. Heritage Roofing provides detailed post-storm inspections, photographic documentation, and written reports you can use directly with your insurance company. We meet with adjusters on-site.',
   },
   {
     title: 'Roof Inspections',
     href: '/services/roof-inspections',
     description:
-      'Whether you\'re buying a home in Eastland, preparing an insurance claim, or checking on your roof before storm season, Heritage Roofing provides detailed written inspections with photographs. Our reports give you an honest assessment of condition and any needed repairs.',
+      'Planning to buy property in Goldthwaite or dealing with an insurance claim? Heritage Roofing provides written roof inspections with photographs — giving you an honest, documented assessment of condition and any repairs needed, not a sales pitch.',
   },
   {
     title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
-      'Attic heat is a serious problem across West Texas summers, and Eastland is no exception. Poor attic ventilation shortens shingle life and drives up energy costs. We install ridge vents, soffit vents, powered attic fans, and quality skylights that add natural light without creating leak points.',
+      'Attic temperatures in Central Texas summers can exceed 150°F without proper ventilation, rapidly aging shingles and raising cooling bills. We install ridge vents, soffit vents, powered attic fans, and quality skylights for Goldthwaite homes and commercial buildings.',
   },
   {
     title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
-      'Storm damage doesn\'t follow business hours. Heritage Roofing offers emergency response seven days a week for Eastland homeowners and businesses when wind, hail, or falling debris creates an urgent opening in your roof.',
+      'Severe weather can create urgent roofing situations at any hour. Heritage Roofing offers emergency response seven days a week for Goldthwaite homeowners and businesses when storm damage creates an opening that can\'t wait until Monday.',
   },
 ]
 
 const faqs = [
   {
-    q: 'Does Heritage Roofing serve Eastland, TX?',
-    a: 'Yes. Eastland is within our regular service area. Our Stephenville office at 1590 N Bates Street is approximately 35 miles east of Eastland, and we have crews working in Eastland County regularly. Call 254-968-7663 to schedule.',
+    q: 'Does Heritage Roofing serve Goldthwaite, TX?',
+    a: 'Yes. Goldthwaite and Mills County are within our regular service area. Our Brownwood office serves the area, and we have crews working in Mills County regularly. Call 325-510-5768 to schedule.',
   },
   {
-    q: 'Do you offer free estimates in Eastland?',
-    a: 'Yes. We provide free, no-obligation estimates for residential and commercial roofing projects in Eastland and throughout Eastland County. Call 254-968-7663 or use our contact form to request an appointment.',
+    q: 'Do you offer free estimates in Goldthwaite?',
+    a: 'Yes. We provide free, no-obligation estimates for residential and commercial roofing projects in Goldthwaite and throughout Mills County. Call 325-510-5768 or use our contact form to request an appointment.',
   },
   {
-    q: 'What roofing materials do you recommend for Eastland homes?',
-    a: 'Class 4 impact-resistant architectural shingles are the most popular choice in this part of Texas given the hail exposure. Metal roofing is also a strong long-term option, especially for agricultural buildings and properties where longevity matters more than upfront cost.',
+    q: 'What roofing materials work best for Goldthwaite properties?',
+    a: 'Class 4 impact-resistant architectural shingles are popular here for their balance of durability and cost. Metal roofing is an excellent choice for ranches and agricultural buildings where longevity and low maintenance are priorities. We\'ll make a recommendation based on your specific property.',
   },
   {
-    q: 'Can you help with a hail damage insurance claim in Eastland?',
-    a: 'Absolutely. We document all damage with photographs and a written report, and we\'re available to meet with your insurance adjuster on-site. We\'ve helped many West Texas homeowners navigate the insurance restoration process after storm events.',
+    q: 'Can you help with a hail damage insurance claim in Goldthwaite?',
+    a: 'Yes. We document all storm damage with photographs and a written report, and are available to meet with your insurance adjuster on-site. We help Mills County homeowners navigate the insurance restoration process after hail events.',
   },
   {
-    q: 'How long does a roof replacement take in Eastland?',
-    a: 'Most residential roof replacements are completed in one to two days depending on the size and pitch of the roof. We handle full tear-off and disposal, and clean up the site at the end of each work day.',
+    q: 'How long does a roof replacement take in Goldthwaite?',
+    a: 'Most residential replacements are completed in one to two days. We handle full tear-off and disposal and clean up the site at the end of each work day.',
   },
   {
-    q: 'Do you also serve areas near Eastland?',
-    a: 'Yes. In addition to Eastland, we serve all of Eastland County as well as Stephenville and Erath County (254-968-7663), Granbury and Hood County (817-573-0890), and Brownwood and Brown County (325-510-5768).',
+    q: 'Do you serve areas near Goldthwaite?',
+    a: 'Yes. In addition to Goldthwaite, we serve Brownwood and Brown County (325-510-5768), Stephenville and Erath County (254-968-7663), and Granbury and Hood County (817-573-0890).',
   },
 ]
 
-export default function EastlandPage() {
+export default function GoldthwaitePage() {
   return (
     <>
       <SiteHeader />
@@ -128,16 +128,16 @@ export default function EastlandPage() {
         >
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-yellow-400 text-sm font-semibold uppercase tracking-widest mb-3">
-              Eastland County &mdash; Since 1986
+              Mills County &mdash; Since 1986
             </p>
             <h1
               id="page-heading"
               className="font-display text-4xl md:text-5xl font-bold text-white text-balance leading-tight mb-4"
             >
-              Roofing Services in Eastland, TX
+              Roofing Services in Goldthwaite, TX
             </h1>
             <p className="text-blue-200 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-              Heritage Roofing, Inc. has served Eastland and the surrounding area since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses in Eastland County.
+              Heritage Roofing, Inc. has served Goldthwaite and Mills County since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses in the Goldthwaite area.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -160,20 +160,20 @@ export default function EastlandPage() {
         </section>
 
         {/* Local intro */}
-        <section aria-label="About Heritage Roofing in Eastland" className="py-12 px-4 bg-white">
+        <section aria-label="About Heritage Roofing in Goldthwaite" className="py-12 px-4 bg-white">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-2xl font-bold mb-4" style={{ color: '#0f1840' }}>
-              Your Eastland Roofing Contractor
+              Your Goldthwaite Roofing Contractor
             </h2>
             <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed space-y-4">
               <p>
-                Eastland has been part of Heritage Roofing&apos;s service area since our founding in 1986. The city sits along the I-20 corridor in Eastland County — a stretch of West Texas known for its wide-open weather exposure and active spring storm seasons. We serve the full range of properties here, from downtown commercial blocks to rural acreage homes.
+                Goldthwaite is the county seat of Mills County, sitting in the heart of Central Texas ranch country. Heritage Roofing has been serving this community since 1986 — handling everything from residential reroofs on family homes to metal roofing on agricultural buildings and commercial structures throughout the county.
               </p>
               <p>
-                Eastland County gets its share of severe weather, including hail events that can strip granules from shingles in a single storm. High summer UV intensity also accelerates aging on older roofing systems. Heritage Roofing understands these local conditions because we work in them every week.
+                Mills County experiences the full range of Central Texas weather: spring hail events, high summer UV, occasional ice in winter, and wind that puts real stress on roofing materials. We&apos;ve worked in these conditions for decades and know what products and installation methods hold up best here.
               </p>
               <p>
-                We are licensed, insured, and based locally out of our Stephenville headquarters. When you hire Heritage Roofing in Eastland, you get a crew that will be here after the job is done — not a storm-chaser company that moves on when the insurance money runs out.
+                Heritage Roofing is licensed, insured, and locally based. You&apos;re not hiring a company that parachutes in after a storm — you&apos;re hiring a contractor that has roots in this part of Texas and will stand behind its work long after the job is complete.
               </p>
             </div>
           </div>
@@ -191,10 +191,10 @@ export default function EastlandPage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Services We Offer in Eastland, TX
+              Services We Offer in Goldthwaite, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Every service below is available to Eastland homeowners and businesses. Same crew, same standards as our Stephenville work.
+              Every service below is available to Goldthwaite homeowners and businesses. Same crew, same standards as our Brownwood work.
             </p>
 
             <div className="space-y-10">
@@ -204,7 +204,7 @@ export default function EastlandPage() {
                   className="bg-white rounded-xl p-7 border border-[#e2ddd6]"
                 >
                   <h3 className="font-display text-xl font-bold mb-3" style={{ color: '#4054b2' }}>
-                    {service.title} in Eastland, TX
+                    {service.title} in Goldthwaite, TX
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">{service.description}</p>
                   <Link
@@ -230,10 +230,10 @@ export default function EastlandPage() {
         >
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-display text-3xl font-bold text-white mb-3 text-balance">
-              Ready to Get Started in Eastland?
+              Ready to Get Started in Goldthwaite?
             </h2>
             <p className="text-red-100 mb-7 text-lg">
-              Call our Stephenville office or submit a request online. Free estimates, no pressure.
+              Call our Brownwood office or submit a request online. Free estimates, no pressure.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -266,17 +266,17 @@ export default function EastlandPage() {
               className="font-display text-2xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Serving Eastland, TX
+              Serving Goldthwaite, TX
             </h2>
             <p className="text-gray-600 mb-8">
-              Our Stephenville office serves Eastland and all surrounding Eastland County communities.
+              Our Brownwood office serves Goldthwaite and all surrounding Mills County communities.
             </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
               <div className="lg:col-span-3 rounded-xl overflow-hidden border border-[#e2ddd6] shadow-sm">
                 <iframe
-                  title="Heritage Roofing, Inc. — Serving Eastland, TX"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13291.0!2d-98.8173!3d32.4018!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86561b5e4d7d9999%3A0x0!2sEastland%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000"
+                  title="Heritage Roofing, Inc. — Serving Goldthwaite, TX"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13291.0!2d-98.5734!3d31.4496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865a2e8e5a5a5a5a%3A0x0!2sGoldthwaite%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000"
                   width="100%"
                   height="360"
                   style={{ border: 0, display: 'block' }}
@@ -289,7 +289,7 @@ export default function EastlandPage() {
               <div className="lg:col-span-2 space-y-6">
                 <div>
                   <h3 className="font-display text-lg font-bold mb-2" style={{ color: '#4054b2' }}>
-                    Serving From Our Stephenville Office
+                    Serving From Our Brownwood Office
                   </h3>
                   <a
                     href={`https://www.google.com/maps?cid=${GBP_CID}`}
@@ -298,8 +298,8 @@ export default function EastlandPage() {
                     className="text-gray-700 text-sm leading-relaxed hover:text-[#4054b2] transition-colors block"
                   >
                     <address className="not-italic">
-                      1590 N Bates Street<br />
-                      Stephenville, TX 76401
+                      Heritage Roofing, Inc.<br />
+                      Brownwood, TX area
                     </address>
                   </a>
                 </div>
@@ -326,7 +326,7 @@ export default function EastlandPage() {
                     Service Areas
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Eastland, Stephenville, Cisco, Ranger, and all of Eastland County
+                    Goldthwaite, Brownwood, Comanche, Coleman, and all of Mills County
                   </p>
                 </div>
 
@@ -358,10 +358,10 @@ export default function EastlandPage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Frequently Asked Questions — Eastland, TX
+              Frequently Asked Questions — Goldthwaite, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Common questions from Eastland homeowners and businesses about our roofing services.
+              Common questions from Goldthwaite homeowners and businesses about our roofing services.
             </p>
 
             <div className="space-y-6">
@@ -399,13 +399,26 @@ export default function EastlandPage() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="rounded-xl border border-[#e2ddd6] p-5">
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
+                  Brownwood &amp; Brown County
+                </p>
+                <p className="text-sm text-gray-600 mb-3">Local number for Brown County</p>
+                <a href="tel:3255105768" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
+                  325-510-5768
+                </a>
+                <Link href="/near/brownwood-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                  View Brownwood page →
+                </Link>
+              </div>
+
+              <div className="rounded-xl border border-[#e2ddd6] p-5">
+                <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Stephenville &amp; Erath County
                 </p>
                 <p className="text-sm text-gray-600 mb-3">Our home base since 1986</p>
                 <a href="tel:2549687663" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   254-968-7663
                 </a>
-                <Link href="/locations/stephenville" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/stephenville-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Stephenville page →
                 </Link>
               </div>
@@ -418,21 +431,8 @@ export default function EastlandPage() {
                 <a href="tel:8175730890" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   817-573-0890
                 </a>
-                <Link href="/locations/granbury" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/granbury-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Granbury page →
-                </Link>
-              </div>
-
-              <div className="rounded-xl border border-[#e2ddd6] p-5">
-                <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
-                  Brownwood &amp; Brown County
-                </p>
-                <p className="text-sm text-gray-600 mb-3">Local number for Brown County</p>
-                <a href="tel:3255105768" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
-                  325-510-5768
-                </a>
-                <Link href="/locations/brownwood" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
-                  View Brownwood page →
                 </Link>
               </div>
             </div>

@@ -5,29 +5,29 @@ import SiteFooter from '@/components/SiteFooter'
 import MobileCallButton from '@/components/MobileCallButton'
 
 export const metadata: Metadata = {
-  title: 'Roofing Services in Goldthwaite, TX | Heritage Roofing, Inc.',
+  title: 'Roofing Services in Coleman, TX | Heritage Roofing, Inc.',
   description:
-    'Roofing contractor serving Goldthwaite, TX and Mills County since 1986. Residential roofing, roof repair, storm damage, and emergency services. Call Heritage Roofing at 325-510-5768.',
-  alternates: { canonical: 'https://heritageroofingtexas.com/locations/goldthwaite' },
+    'Roofing contractor serving Coleman, TX and Coleman County since 1986. Residential roofing, roof repair, storm damage, and emergency services. Call Heritage Roofing at 325-510-5768.',
+  alternates: { canonical: 'https://heritageroofingtexas.com/locations/coleman' },
   openGraph: {
-    title: 'Roofing Services in Goldthwaite, TX | Heritage Roofing, Inc.',
+    title: 'Roofing Services in Coleman, TX | Heritage Roofing, Inc.',
     description:
-      'Local roofing contractor serving Goldthwaite and Mills County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
-    url: 'https://heritageroofingtexas.com/locations/goldthwaite',
+      'Local roofing contractor serving Coleman and Coleman County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
+    url: 'https://heritageroofingtexas.com/locations/coleman',
     type: 'website',
     images: [
       {
         url: 'https://heritageroofingtexas.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Heritage Roofing, Inc. — Roofing Services in Goldthwaite, TX',
+        alt: 'Heritage Roofing, Inc. — Roofing Services in Coleman, TX',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Roofing Services in Goldthwaite, TX | Heritage Roofing, Inc.',
-    description: 'Local roofing contractor serving Goldthwaite and Mills County. Residential, commercial, storm damage, and emergency roof repairs.',
+    title: 'Roofing Services in Coleman, TX | Heritage Roofing, Inc.',
+    description: 'Local roofing contractor serving Coleman and Coleman County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
     images: ['https://heritageroofingtexas.com/og-image.jpg'],
   },
 }
@@ -41,80 +41,80 @@ const services = [
     title: 'Residential Roofing',
     href: '/services/residential-roofing',
     description:
-      'Goldthwaite homes — from ranch-style residences to working-farm properties throughout Mills County — need roofing that holds up to the heat and weather exposure of Central Texas. Heritage Roofing installs architectural shingles, metal roofing, and tile, with recommendations suited to each home\'s needs.',
+      'Coleman is the county seat of Coleman County, with established neighborhoods near downtown and ranches spread across the surrounding hills. Heritage Roofing installs architectural shingles, metal roofing, and tile for Coleman homeowners, selecting materials suited to West-Central Texas heat, wind, and hail exposure.',
   },
   {
     title: 'Commercial Roofing',
     href: '/services/commercial-roofing',
     description:
-      'Whether it\'s a downtown storefront, a feed store, or an agricultural processing facility near Goldthwaite, Heritage Roofing provides TPO, metal panel, and built-up roofing systems for Mills County businesses. We schedule around your operations and back all commercial work with written warranties.',
+      'Coleman\'s commercial and agricultural sector includes downtown retail blocks, warehouses, and large ranch operations. Heritage Roofing provides TPO, metal panel, and built-up flat roofing systems for local businesses. We work on project timelines that minimize disruption to operations.',
   },
   {
     title: 'Roof Repair',
     href: '/services/roof-repair',
     description:
-      'In Goldthwaite\'s climate, minor roofing issues become water intrusion problems fast. Our crews identify leaks at the source and repair cracked shingles, deteriorated pipe boots, valley flashing failures, and ridge cap damage before moisture reaches your decking or interior.',
+      'Coleman County roofs deal with specific wear from UV exposure, thermal cycling, and periodic hail. Common issues include failed pipe boot seals, deteriorated flashing at valleys and chimneys, and wind-lifted shingles. Heritage Roofing diagnoses the true source of leaks rather than surface-treating symptoms.',
   },
   {
     title: 'Roof Replacement',
     href: '/services/roof-replacement',
     description:
-      'When a Goldthwaite roof has reached the end of its useful life, Heritage Roofing handles complete tear-off, material selection, and new installation. We explain your material options, provide a written estimate with no surprise costs, and complete most residential jobs in one to two days.',
+      'When Coleman homeowners need a complete roof replacement, Heritage Roofing provides a clear written estimate, handles full tear-off and disposal, and installs quality materials backed by a workmanship warranty. Most residential projects are completed in one to two days.',
   },
   {
     title: 'Storm & Hail Damage',
     href: '/services/storm-hail-damage',
     description:
-      'Mills County sees active spring storm seasons with hail events that can cause significant roof damage. Heritage Roofing provides detailed post-storm inspections, photographic documentation, and written reports you can use directly with your insurance company. We meet with adjusters on-site.',
+      'Coleman County sits in an area that sees active hail seasons each spring. Heritage Roofing responds after storms with thorough inspections, photo documentation, and written reports that hold up to insurance company scrutiny. We meet adjusters on-site and manage the restoration process from start to finish.',
   },
   {
     title: 'Roof Inspections',
     href: '/services/roof-inspections',
     description:
-      'Planning to buy property in Goldthwaite or dealing with an insurance claim? Heritage Roofing provides written roof inspections with photographs — giving you an honest, documented assessment of condition and any repairs needed, not a sales pitch.',
+      'A written inspection report from Heritage Roofing gives Coleman homeowners and buyers a clear picture of roof condition. Whether you need pre-purchase documentation, storm damage evidence, or a routine assessment before severe weather season, our inspections are honest and photo-supported.',
   },
   {
     title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
-      'Attic temperatures in Central Texas summers can exceed 150°F without proper ventilation, rapidly aging shingles and raising cooling bills. We install ridge vents, soffit vents, powered attic fans, and quality skylights for Goldthwaite homes and commercial buildings.',
+      'In the heat of a Coleman County summer, inadequate attic ventilation accelerates shingle wear and raises energy costs significantly. Heritage Roofing installs ridge vents, baffled soffit vents, powered attic fans, and quality skylights to keep your roof system performing as designed.',
   },
   {
     title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
-      'Severe weather can create urgent roofing situations at any hour. Heritage Roofing offers emergency response seven days a week for Goldthwaite homeowners and businesses when storm damage creates an opening that can\'t wait until Monday.',
+      'Severe weather can compromise a roof at any hour. Heritage Roofing offers emergency response seven days a week for Coleman homeowners and businesses when a storm creates an urgent opening that cannot wait until Monday morning.',
   },
 ]
 
 const faqs = [
   {
-    q: 'Does Heritage Roofing serve Goldthwaite, TX?',
-    a: 'Yes. Goldthwaite and Mills County are within our regular service area. Our Brownwood office serves the area, and we have crews working in Mills County regularly. Call 325-510-5768 to schedule.',
+    q: 'Does Heritage Roofing serve Coleman, TX?',
+    a: 'Yes. Coleman and Coleman County are within our active service area. We have crews working in the county regularly. Call 325-510-5768 to schedule.',
   },
   {
-    q: 'Do you offer free estimates in Goldthwaite?',
-    a: 'Yes. We provide free, no-obligation estimates for residential and commercial roofing projects in Goldthwaite and throughout Mills County. Call 325-510-5768 or use our contact form to request an appointment.',
+    q: 'Do you provide free estimates in Coleman?',
+    a: 'Yes. Free, no-obligation estimates are available for residential and commercial roofing projects in Coleman and throughout Coleman County.',
   },
   {
-    q: 'What roofing materials work best for Goldthwaite properties?',
-    a: 'Class 4 impact-resistant architectural shingles are popular here for their balance of durability and cost. Metal roofing is an excellent choice for ranches and agricultural buildings where longevity and low maintenance are priorities. We\'ll make a recommendation based on your specific property.',
+    q: 'What type of roof is best for Coleman, TX?',
+    a: 'Class 4 impact-resistant architectural shingles are the most popular choice given Coleman County\'s hail history. Standing seam metal roofing is an excellent long-term investment, particularly for ranch homes and agricultural buildings.',
   },
   {
-    q: 'Can you help with a hail damage insurance claim in Goldthwaite?',
-    a: 'Yes. We document all storm damage with photographs and a written report, and are available to meet with your insurance adjuster on-site. We help Mills County homeowners navigate the insurance restoration process after hail events.',
+    q: 'Can you help with a hail damage insurance claim in Coleman?',
+    a: 'Yes. We document all damage photographically, provide written inspection reports, and meet with your adjuster on-site. We\'ve helped many Coleman County homeowners navigate the insurance claim process successfully.',
   },
   {
-    q: 'How long does a roof replacement take in Goldthwaite?',
-    a: 'Most residential replacements are completed in one to two days. We handle full tear-off and disposal and clean up the site at the end of each work day.',
+    q: 'How long does roof replacement take in Coleman?',
+    a: 'Most single-family residential replacements are completed in one to two days. Larger or more complex roofs may take an additional day. We provide a realistic timeline in your written estimate.',
   },
   {
-    q: 'Do you serve areas near Goldthwaite?',
-    a: 'Yes. In addition to Goldthwaite, we serve Brownwood and Brown County (325-510-5768), Stephenville and Erath County (254-968-7663), and Granbury and Hood County (817-573-0890).',
+    q: 'Do you serve communities near Coleman?',
+    a: 'Yes. We serve Santa Anna, Bangs, and surrounding areas under 325-510-5768, Stephenville and Erath County under 254-968-7663, and Granbury and Hood County under 817-573-0890.',
   },
 ]
 
-export default function GoldthwaitePage() {
+export default function ColemanPage() {
   return (
     <>
       <SiteHeader />
@@ -128,16 +128,16 @@ export default function GoldthwaitePage() {
         >
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-yellow-400 text-sm font-semibold uppercase tracking-widest mb-3">
-              Mills County &mdash; Since 1986
+              Coleman County &mdash; Since 1986
             </p>
             <h1
               id="page-heading"
               className="font-display text-4xl md:text-5xl font-bold text-white text-balance leading-tight mb-4"
             >
-              Roofing Services in Goldthwaite, TX
+              Roofing Services in Coleman, TX
             </h1>
             <p className="text-blue-200 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-              Heritage Roofing, Inc. has served Goldthwaite and Mills County since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses in the Goldthwaite area.
+              Heritage Roofing, Inc. has served Coleman and Coleman County since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses throughout the area.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -160,20 +160,20 @@ export default function GoldthwaitePage() {
         </section>
 
         {/* Local intro */}
-        <section aria-label="About Heritage Roofing in Goldthwaite" className="py-12 px-4 bg-white">
+        <section aria-label="About Heritage Roofing in Coleman" className="py-12 px-4 bg-white">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-2xl font-bold mb-4" style={{ color: '#0f1840' }}>
-              Your Goldthwaite Roofing Contractor
+              Your Coleman Roofing Contractor
             </h2>
             <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed space-y-4">
               <p>
-                Goldthwaite is the county seat of Mills County, sitting in the heart of Central Texas ranch country. Heritage Roofing has been serving this community since 1986 — handling everything from residential reroofs on family homes to metal roofing on agricultural buildings and commercial structures throughout the county.
+                Coleman is the county seat of Coleman County, located along US 84 in the heart of West-Central Texas. The city serves as a hub for the surrounding ranch and agricultural communities, and its mix of historic downtown buildings and residential neighborhoods reflects the kind of durable construction common throughout the region.
               </p>
               <p>
-                Mills County experiences the full range of Central Texas weather: spring hail events, high summer UV, occasional ice in winter, and wind that puts real stress on roofing materials. We&apos;ve worked in these conditions for decades and know what products and installation methods hold up best here.
+                Heritage Roofing has been serving Coleman and the surrounding area since 1986. The climate here is demanding — hot summers with intense UV radiation, active spring hail seasons, and periodic high-wind events that test the integrity of any roofing system. We know what performs in these conditions and what does not.
               </p>
               <p>
-                Heritage Roofing is licensed, insured, and locally based. You&apos;re not hiring a company that parachutes in after a storm — you&apos;re hiring a contractor that has roots in this part of Texas and will stand behind its work long after the job is complete.
+                We are licensed, insured, and work in Coleman County regularly. When you hire Heritage Roofing in Coleman, you get the same crew quality and material standards we bring to every job in our service area, backed by a workmanship warranty and a team that will still be here if you need warranty work in the years ahead.
               </p>
             </div>
           </div>
@@ -191,10 +191,10 @@ export default function GoldthwaitePage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Services We Offer in Goldthwaite, TX
+              Services We Offer in Coleman, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Every service below is available to Goldthwaite homeowners and businesses. Same crew, same standards as our Brownwood work.
+              Every service below is available to Coleman homeowners and businesses. Same crew, same standards as our Brownwood work.
             </p>
 
             <div className="space-y-10">
@@ -204,7 +204,7 @@ export default function GoldthwaitePage() {
                   className="bg-white rounded-xl p-7 border border-[#e2ddd6]"
                 >
                   <h3 className="font-display text-xl font-bold mb-3" style={{ color: '#4054b2' }}>
-                    {service.title} in Goldthwaite, TX
+                    {service.title} in Coleman, TX
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">{service.description}</p>
                   <Link
@@ -230,10 +230,10 @@ export default function GoldthwaitePage() {
         >
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-display text-3xl font-bold text-white mb-3 text-balance">
-              Ready to Get Started in Goldthwaite?
+              Ready to Get Started in Coleman?
             </h2>
             <p className="text-red-100 mb-7 text-lg">
-              Call our Brownwood office or submit a request online. Free estimates, no pressure.
+              Call our Brownwood area office or submit a request online. Free estimates, no pressure.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -256,27 +256,24 @@ export default function GoldthwaitePage() {
         </section>
 
         {/* Map + office info */}
-        <section
-          aria-labelledby="location-heading"
-          className="py-14 px-4 bg-white"
-        >
+        <section aria-labelledby="location-heading" className="py-14 px-4 bg-white">
           <div className="max-w-5xl mx-auto">
             <h2
               id="location-heading"
               className="font-display text-2xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Serving Goldthwaite, TX
+              Serving Coleman, TX
             </h2>
             <p className="text-gray-600 mb-8">
-              Our Brownwood office serves Goldthwaite and all surrounding Mills County communities.
+              Our Brownwood area operations serve Coleman and all of Coleman County.
             </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
               <div className="lg:col-span-3 rounded-xl overflow-hidden border border-[#e2ddd6] shadow-sm">
                 <iframe
-                  title="Heritage Roofing, Inc. — Serving Goldthwaite, TX"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13291.0!2d-98.5734!3d31.4496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865a2e8e5a5a5a5a%3A0x0!2sGoldthwaite%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000"
+                  title="Heritage Roofing, Inc. — Serving Coleman, TX"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24000!2d-99.4262!3d31.8293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab4adc7c2e1ef9d7!2sHeritage+Roofing+Inc!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus&cid=12288339561500500951"
                   width="100%"
                   height="360"
                   style={{ border: 0, display: 'block' }}
@@ -289,7 +286,7 @@ export default function GoldthwaitePage() {
               <div className="lg:col-span-2 space-y-6">
                 <div>
                   <h3 className="font-display text-lg font-bold mb-2" style={{ color: '#4054b2' }}>
-                    Serving From Our Brownwood Office
+                    Heritage Roofing, Inc.
                   </h3>
                   <a
                     href={`https://www.google.com/maps?cid=${GBP_CID}`}
@@ -298,15 +295,15 @@ export default function GoldthwaitePage() {
                     className="text-gray-700 text-sm leading-relaxed hover:text-[#4054b2] transition-colors block"
                   >
                     <address className="not-italic">
-                      Heritage Roofing, Inc.<br />
-                      Brownwood, TX area
+                      1590 N Bates Street<br />
+                      Stephenville, TX 76401
                     </address>
                   </a>
                 </div>
 
                 <div>
                   <h3 className="font-display text-lg font-bold mb-2" style={{ color: '#4054b2' }}>
-                    Phone
+                    Coleman &amp; Coleman County
                   </h3>
                   <a href={PHONE_HREF} className="text-[#cc0000] font-semibold hover:text-[#aa0000] transition-colors">
                     {PHONE}
@@ -326,7 +323,7 @@ export default function GoldthwaitePage() {
                     Service Areas
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Goldthwaite, Brownwood, Comanche, Coleman, and all of Mills County
+                    Coleman, Santa Anna, Brownwood, Bangs, and all of Coleman County
                   </p>
                 </div>
 
@@ -358,18 +355,15 @@ export default function GoldthwaitePage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Frequently Asked Questions — Goldthwaite, TX
+              Frequently Asked Questions — Coleman, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Common questions from Goldthwaite homeowners and businesses about our roofing services.
+              Common questions from Coleman homeowners and businesses about our roofing services.
             </p>
 
             <div className="space-y-6">
               {faqs.map((faq) => (
-                <div
-                  key={faq.q}
-                  className="bg-white rounded-xl p-6 border border-[#e2ddd6]"
-                >
+                <div key={faq.q} className="bg-white rounded-xl p-6 border border-[#e2ddd6]">
                   <h3 className="font-display text-base font-bold mb-2" style={{ color: '#0f1840' }}>
                     {faq.q}
                   </h3>
@@ -401,11 +395,11 @@ export default function GoldthwaitePage() {
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Brownwood &amp; Brown County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Local number for Brown County</p>
+                <p className="text-sm text-gray-600 mb-3">Bangs, Goldthwaite, Comanche, Santa Anna</p>
                 <a href="tel:3255105768" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   325-510-5768
                 </a>
-                <Link href="/locations/brownwood" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/brownwood-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Brownwood page →
                 </Link>
               </div>
@@ -414,11 +408,11 @@ export default function GoldthwaitePage() {
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Stephenville &amp; Erath County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Our home base since 1986</p>
+                <p className="text-sm text-gray-600 mb-3">Dublin, Hico, Eastland, De Leon</p>
                 <a href="tel:2549687663" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   254-968-7663
                 </a>
-                <Link href="/locations/stephenville" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/stephenville-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Stephenville page →
                 </Link>
               </div>
@@ -427,11 +421,11 @@ export default function GoldthwaitePage() {
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Granbury &amp; Hood County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Local number for Hood County</p>
+                <p className="text-sm text-gray-600 mb-3">Glen Rose, Weatherford, Mineral Wells</p>
                 <a href="tel:8175730890" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   817-573-0890
                 </a>
-                <Link href="/locations/granbury" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/granbury-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Granbury page →
                 </Link>
               </div>

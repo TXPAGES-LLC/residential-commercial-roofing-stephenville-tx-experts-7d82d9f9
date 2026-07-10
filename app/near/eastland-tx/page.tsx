@@ -5,116 +5,116 @@ import SiteFooter from '@/components/SiteFooter'
 import MobileCallButton from '@/components/MobileCallButton'
 
 export const metadata: Metadata = {
-  title: 'Roofing Services in Coleman, TX | Heritage Roofing, Inc.',
+  title: 'Roofing Services in Eastland, TX | Heritage Roofing, Inc.',
   description:
-    'Roofing contractor serving Coleman, TX and Coleman County since 1986. Residential roofing, roof repair, storm damage, and emergency services. Call Heritage Roofing at 325-510-5768.',
-  alternates: { canonical: 'https://heritageroofingtexas.com/locations/coleman' },
+    'Roofing contractor serving Eastland, TX and Eastland County since 1986. Residential roofing, roof repair, storm damage, and emergency services. Call Heritage Roofing at 254-968-7663.',
+  alternates: { canonical: 'https://heritageroofingtexas.com/locations/eastland' },
   openGraph: {
-    title: 'Roofing Services in Coleman, TX | Heritage Roofing, Inc.',
+    title: 'Roofing Services in Eastland, TX | Heritage Roofing, Inc.',
     description:
-      'Local roofing contractor serving Coleman and Coleman County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
-    url: 'https://heritageroofingtexas.com/locations/coleman',
+      'Local roofing contractor serving Eastland and Eastland County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
+    url: 'https://heritageroofingtexas.com/locations/eastland',
     type: 'website',
     images: [
       {
         url: 'https://heritageroofingtexas.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Heritage Roofing, Inc. — Roofing Services in Coleman, TX',
+        alt: 'Heritage Roofing, Inc. — Roofing Services in Eastland, TX',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Roofing Services in Coleman, TX | Heritage Roofing, Inc.',
-    description: 'Local roofing contractor serving Coleman and Coleman County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
+    title: 'Roofing Services in Eastland, TX | Heritage Roofing, Inc.',
+    description: 'Local roofing contractor serving Eastland and Eastland County. Residential, commercial, storm damage, and emergency roof repairs.',
     images: ['https://heritageroofingtexas.com/og-image.jpg'],
   },
 }
 
 const GBP_CID = '12288339561500500951'
-const PHONE = '325-510-5768'
-const PHONE_HREF = 'tel:3255105768'
+const PHONE = '254-968-7663'
+const PHONE_HREF = 'tel:2549687663'
 
 const services = [
   {
     title: 'Residential Roofing',
     href: '/services/residential-roofing',
     description:
-      'Coleman is the county seat of Coleman County, with established neighborhoods near downtown and ranches spread across the surrounding hills. Heritage Roofing installs architectural shingles, metal roofing, and tile for Coleman homeowners, selecting materials suited to West-Central Texas heat, wind, and hail exposure.',
+      'Eastland homes range from older bungalows near the historic courthouse square to newer neighborhoods on the city outskirts — each with different roofing needs. Heritage Roofing installs architectural shingles, metal roofing, and tile on Eastland residences, with material recommendations based on your home\'s structure and your budget.',
   },
   {
     title: 'Commercial Roofing',
     href: '/services/commercial-roofing',
     description:
-      'Coleman\'s commercial and agricultural sector includes downtown retail blocks, warehouses, and large ranch operations. Heritage Roofing provides TPO, metal panel, and built-up flat roofing systems for local businesses. We work on project timelines that minimize disruption to operations.',
+      'From retail buildings along I-20 to agricultural and industrial structures around Eastland County, Heritage Roofing provides TPO, metal panel, and built-up roofing systems for local businesses. We work around your schedule and provide written warranties on all commercial installations.',
   },
   {
     title: 'Roof Repair',
     href: '/services/roof-repair',
     description:
-      'Coleman County roofs deal with specific wear from UV exposure, thermal cycling, and periodic hail. Common issues include failed pipe boot seals, deteriorated flashing at valleys and chimneys, and wind-lifted shingles. Heritage Roofing diagnoses the true source of leaks rather than surface-treating symptoms.',
+      'Small leaks and minor storm damage can escalate quickly in Eastland\'s climate. Our repair crews identify the source of leaks and fix damaged shingles, pipe boots, ridge caps, and valley flashing before moisture reaches your decking or interior ceiling materials.',
   },
   {
     title: 'Roof Replacement',
     href: '/services/roof-replacement',
     description:
-      'When Coleman homeowners need a complete roof replacement, Heritage Roofing provides a clear written estimate, handles full tear-off and disposal, and installs quality materials backed by a workmanship warranty. Most residential projects are completed in one to two days.',
+      'When a repair is no longer cost-effective, Heritage Roofing handles complete tear-off and replacement for Eastland homes and commercial properties. We walk you through material options, provide a written estimate, and complete most residential replacements in one to two days.',
   },
   {
     title: 'Storm & Hail Damage',
     href: '/services/storm-hail-damage',
     description:
-      'Coleman County sits in an area that sees active hail seasons each spring. Heritage Roofing responds after storms with thorough inspections, photo documentation, and written reports that hold up to insurance company scrutiny. We meet adjusters on-site and manage the restoration process from start to finish.',
+      'Eastland County sees significant hail activity during spring storm season. Heritage Roofing provides thorough post-storm inspections, photographic documentation, and written reports suitable for insurance claims. We meet with adjusters on-site and manage the full restoration from start to finish.',
   },
   {
     title: 'Roof Inspections',
     href: '/services/roof-inspections',
     description:
-      'A written inspection report from Heritage Roofing gives Coleman homeowners and buyers a clear picture of roof condition. Whether you need pre-purchase documentation, storm damage evidence, or a routine assessment before severe weather season, our inspections are honest and photo-supported.',
+      'Whether you\'re buying a home in Eastland, preparing an insurance claim, or checking on your roof before storm season, Heritage Roofing provides detailed written inspections with photographs. Our reports give you an honest assessment of condition and any needed repairs.',
   },
   {
     title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
-      'In the heat of a Coleman County summer, inadequate attic ventilation accelerates shingle wear and raises energy costs significantly. Heritage Roofing installs ridge vents, baffled soffit vents, powered attic fans, and quality skylights to keep your roof system performing as designed.',
+      'Attic heat is a serious problem across West Texas summers, and Eastland is no exception. Poor attic ventilation shortens shingle life and drives up energy costs. We install ridge vents, soffit vents, powered attic fans, and quality skylights that add natural light without creating leak points.',
   },
   {
     title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
-      'Severe weather can compromise a roof at any hour. Heritage Roofing offers emergency response seven days a week for Coleman homeowners and businesses when a storm creates an urgent opening that cannot wait until Monday morning.',
+      'Storm damage doesn\'t follow business hours. Heritage Roofing offers emergency response seven days a week for Eastland homeowners and businesses when wind, hail, or falling debris creates an urgent opening in your roof.',
   },
 ]
 
 const faqs = [
   {
-    q: 'Does Heritage Roofing serve Coleman, TX?',
-    a: 'Yes. Coleman and Coleman County are within our active service area. We have crews working in the county regularly. Call 325-510-5768 to schedule.',
+    q: 'Does Heritage Roofing serve Eastland, TX?',
+    a: 'Yes. Eastland is within our regular service area. Our Stephenville office at 1590 N Bates Street is approximately 35 miles east of Eastland, and we have crews working in Eastland County regularly. Call 254-968-7663 to schedule.',
   },
   {
-    q: 'Do you provide free estimates in Coleman?',
-    a: 'Yes. Free, no-obligation estimates are available for residential and commercial roofing projects in Coleman and throughout Coleman County.',
+    q: 'Do you offer free estimates in Eastland?',
+    a: 'Yes. We provide free, no-obligation estimates for residential and commercial roofing projects in Eastland and throughout Eastland County. Call 254-968-7663 or use our contact form to request an appointment.',
   },
   {
-    q: 'What type of roof is best for Coleman, TX?',
-    a: 'Class 4 impact-resistant architectural shingles are the most popular choice given Coleman County\'s hail history. Standing seam metal roofing is an excellent long-term investment, particularly for ranch homes and agricultural buildings.',
+    q: 'What roofing materials do you recommend for Eastland homes?',
+    a: 'Class 4 impact-resistant architectural shingles are the most popular choice in this part of Texas given the hail exposure. Metal roofing is also a strong long-term option, especially for agricultural buildings and properties where longevity matters more than upfront cost.',
   },
   {
-    q: 'Can you help with a hail damage insurance claim in Coleman?',
-    a: 'Yes. We document all damage photographically, provide written inspection reports, and meet with your adjuster on-site. We\'ve helped many Coleman County homeowners navigate the insurance claim process successfully.',
+    q: 'Can you help with a hail damage insurance claim in Eastland?',
+    a: 'Absolutely. We document all damage with photographs and a written report, and we\'re available to meet with your insurance adjuster on-site. We\'ve helped many West Texas homeowners navigate the insurance restoration process after storm events.',
   },
   {
-    q: 'How long does roof replacement take in Coleman?',
-    a: 'Most single-family residential replacements are completed in one to two days. Larger or more complex roofs may take an additional day. We provide a realistic timeline in your written estimate.',
+    q: 'How long does a roof replacement take in Eastland?',
+    a: 'Most residential roof replacements are completed in one to two days depending on the size and pitch of the roof. We handle full tear-off and disposal, and clean up the site at the end of each work day.',
   },
   {
-    q: 'Do you serve communities near Coleman?',
-    a: 'Yes. We serve Santa Anna, Bangs, and surrounding areas under 325-510-5768, Stephenville and Erath County under 254-968-7663, and Granbury and Hood County under 817-573-0890.',
+    q: 'Do you also serve areas near Eastland?',
+    a: 'Yes. In addition to Eastland, we serve all of Eastland County as well as Stephenville and Erath County (254-968-7663), Granbury and Hood County (817-573-0890), and Brownwood and Brown County (325-510-5768).',
   },
 ]
 
-export default function ColemanPage() {
+export default function EastlandPage() {
   return (
     <>
       <SiteHeader />
@@ -128,16 +128,16 @@ export default function ColemanPage() {
         >
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-yellow-400 text-sm font-semibold uppercase tracking-widest mb-3">
-              Coleman County &mdash; Since 1986
+              Eastland County &mdash; Since 1986
             </p>
             <h1
               id="page-heading"
               className="font-display text-4xl md:text-5xl font-bold text-white text-balance leading-tight mb-4"
             >
-              Roofing Services in Coleman, TX
+              Roofing Services in Eastland, TX
             </h1>
             <p className="text-blue-200 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-              Heritage Roofing, Inc. has served Coleman and Coleman County since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses throughout the area.
+              Heritage Roofing, Inc. has served Eastland and the surrounding area since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses in Eastland County.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -160,20 +160,20 @@ export default function ColemanPage() {
         </section>
 
         {/* Local intro */}
-        <section aria-label="About Heritage Roofing in Coleman" className="py-12 px-4 bg-white">
+        <section aria-label="About Heritage Roofing in Eastland" className="py-12 px-4 bg-white">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-2xl font-bold mb-4" style={{ color: '#0f1840' }}>
-              Your Coleman Roofing Contractor
+              Your Eastland Roofing Contractor
             </h2>
             <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed space-y-4">
               <p>
-                Coleman is the county seat of Coleman County, located along US 84 in the heart of West-Central Texas. The city serves as a hub for the surrounding ranch and agricultural communities, and its mix of historic downtown buildings and residential neighborhoods reflects the kind of durable construction common throughout the region.
+                Eastland has been part of Heritage Roofing&apos;s service area since our founding in 1986. The city sits along the I-20 corridor in Eastland County — a stretch of West Texas known for its wide-open weather exposure and active spring storm seasons. We serve the full range of properties here, from downtown commercial blocks to rural acreage homes.
               </p>
               <p>
-                Heritage Roofing has been serving Coleman and the surrounding area since 1986. The climate here is demanding — hot summers with intense UV radiation, active spring hail seasons, and periodic high-wind events that test the integrity of any roofing system. We know what performs in these conditions and what does not.
+                Eastland County gets its share of severe weather, including hail events that can strip granules from shingles in a single storm. High summer UV intensity also accelerates aging on older roofing systems. Heritage Roofing understands these local conditions because we work in them every week.
               </p>
               <p>
-                We are licensed, insured, and work in Coleman County regularly. When you hire Heritage Roofing in Coleman, you get the same crew quality and material standards we bring to every job in our service area, backed by a workmanship warranty and a team that will still be here if you need warranty work in the years ahead.
+                We are licensed, insured, and based locally out of our Stephenville headquarters. When you hire Heritage Roofing in Eastland, you get a crew that will be here after the job is done — not a storm-chaser company that moves on when the insurance money runs out.
               </p>
             </div>
           </div>
@@ -191,10 +191,10 @@ export default function ColemanPage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Services We Offer in Coleman, TX
+              Services We Offer in Eastland, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Every service below is available to Coleman homeowners and businesses. Same crew, same standards as our Brownwood work.
+              Every service below is available to Eastland homeowners and businesses. Same crew, same standards as our Stephenville work.
             </p>
 
             <div className="space-y-10">
@@ -204,7 +204,7 @@ export default function ColemanPage() {
                   className="bg-white rounded-xl p-7 border border-[#e2ddd6]"
                 >
                   <h3 className="font-display text-xl font-bold mb-3" style={{ color: '#4054b2' }}>
-                    {service.title} in Coleman, TX
+                    {service.title} in Eastland, TX
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">{service.description}</p>
                   <Link
@@ -230,10 +230,10 @@ export default function ColemanPage() {
         >
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-display text-3xl font-bold text-white mb-3 text-balance">
-              Ready to Get Started in Coleman?
+              Ready to Get Started in Eastland?
             </h2>
             <p className="text-red-100 mb-7 text-lg">
-              Call our Brownwood area office or submit a request online. Free estimates, no pressure.
+              Call our Stephenville office or submit a request online. Free estimates, no pressure.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -256,24 +256,27 @@ export default function ColemanPage() {
         </section>
 
         {/* Map + office info */}
-        <section aria-labelledby="location-heading" className="py-14 px-4 bg-white">
+        <section
+          aria-labelledby="location-heading"
+          className="py-14 px-4 bg-white"
+        >
           <div className="max-w-5xl mx-auto">
             <h2
               id="location-heading"
               className="font-display text-2xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Serving Coleman, TX
+              Serving Eastland, TX
             </h2>
             <p className="text-gray-600 mb-8">
-              Our Brownwood area operations serve Coleman and all of Coleman County.
+              Our Stephenville office serves Eastland and all surrounding Eastland County communities.
             </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
               <div className="lg:col-span-3 rounded-xl overflow-hidden border border-[#e2ddd6] shadow-sm">
                 <iframe
-                  title="Heritage Roofing, Inc. — Serving Coleman, TX"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24000!2d-99.4262!3d31.8293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab4adc7c2e1ef9d7!2sHeritage+Roofing+Inc!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus&cid=12288339561500500951"
+                  title="Heritage Roofing, Inc. — Serving Eastland, TX"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13291.0!2d-98.8173!3d32.4018!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86561b5e4d7d9999%3A0x0!2sEastland%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000"
                   width="100%"
                   height="360"
                   style={{ border: 0, display: 'block' }}
@@ -286,7 +289,7 @@ export default function ColemanPage() {
               <div className="lg:col-span-2 space-y-6">
                 <div>
                   <h3 className="font-display text-lg font-bold mb-2" style={{ color: '#4054b2' }}>
-                    Heritage Roofing, Inc.
+                    Serving From Our Stephenville Office
                   </h3>
                   <a
                     href={`https://www.google.com/maps?cid=${GBP_CID}`}
@@ -303,7 +306,7 @@ export default function ColemanPage() {
 
                 <div>
                   <h3 className="font-display text-lg font-bold mb-2" style={{ color: '#4054b2' }}>
-                    Coleman &amp; Coleman County
+                    Phone
                   </h3>
                   <a href={PHONE_HREF} className="text-[#cc0000] font-semibold hover:text-[#aa0000] transition-colors">
                     {PHONE}
@@ -323,7 +326,7 @@ export default function ColemanPage() {
                     Service Areas
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Coleman, Santa Anna, Brownwood, Bangs, and all of Coleman County
+                    Eastland, Stephenville, Cisco, Ranger, and all of Eastland County
                   </p>
                 </div>
 
@@ -355,15 +358,18 @@ export default function ColemanPage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Frequently Asked Questions — Coleman, TX
+              Frequently Asked Questions — Eastland, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Common questions from Coleman homeowners and businesses about our roofing services.
+              Common questions from Eastland homeowners and businesses about our roofing services.
             </p>
 
             <div className="space-y-6">
               {faqs.map((faq) => (
-                <div key={faq.q} className="bg-white rounded-xl p-6 border border-[#e2ddd6]">
+                <div
+                  key={faq.q}
+                  className="bg-white rounded-xl p-6 border border-[#e2ddd6]"
+                >
                   <h3 className="font-display text-base font-bold mb-2" style={{ color: '#0f1840' }}>
                     {faq.q}
                   </h3>
@@ -393,26 +399,13 @@ export default function ColemanPage() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="rounded-xl border border-[#e2ddd6] p-5">
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
-                  Brownwood &amp; Brown County
-                </p>
-                <p className="text-sm text-gray-600 mb-3">Bangs, Goldthwaite, Comanche, Santa Anna</p>
-                <a href="tel:3255105768" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
-                  325-510-5768
-                </a>
-                <Link href="/locations/brownwood" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
-                  View Brownwood page →
-                </Link>
-              </div>
-
-              <div className="rounded-xl border border-[#e2ddd6] p-5">
-                <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Stephenville &amp; Erath County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Dublin, Hico, Eastland, De Leon</p>
+                <p className="text-sm text-gray-600 mb-3">Our home base since 1986</p>
                 <a href="tel:2549687663" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   254-968-7663
                 </a>
-                <Link href="/locations/stephenville" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/stephenville-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Stephenville page →
                 </Link>
               </div>
@@ -421,12 +414,25 @@ export default function ColemanPage() {
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Granbury &amp; Hood County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Glen Rose, Weatherford, Mineral Wells</p>
+                <p className="text-sm text-gray-600 mb-3">Local number for Hood County</p>
                 <a href="tel:8175730890" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   817-573-0890
                 </a>
-                <Link href="/locations/granbury" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/granbury-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Granbury page →
+                </Link>
+              </div>
+
+              <div className="rounded-xl border border-[#e2ddd6] p-5">
+                <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
+                  Brownwood &amp; Brown County
+                </p>
+                <p className="text-sm text-gray-600 mb-3">Local number for Brown County</p>
+                <a href="tel:3255105768" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
+                  325-510-5768
+                </a>
+                <Link href="/near/brownwood-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                  View Brownwood page →
                 </Link>
               </div>
             </div>

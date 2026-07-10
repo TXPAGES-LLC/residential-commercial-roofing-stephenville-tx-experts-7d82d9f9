@@ -5,29 +5,29 @@ import SiteFooter from '@/components/SiteFooter'
 import MobileCallButton from '@/components/MobileCallButton'
 
 export const metadata: Metadata = {
-  title: 'Roofing Services in Santa Anna, TX | Heritage Roofing, Inc.',
+  title: 'Roofing Services in Comanche, TX | Heritage Roofing, Inc.',
   description:
-    'Roofing contractor serving Santa Anna, TX and Coleman County since 1986. Residential roofing, roof repair, storm damage, and emergency services. Call Heritage Roofing at 325-510-5768.',
-  alternates: { canonical: 'https://heritageroofingtexas.com/locations/santa-anna' },
+    'Roofing contractor serving Comanche, TX since 1986. Residential roofing, roof repair, storm damage, and emergency services in Comanche County. Call Heritage Roofing at 325-510-5768.',
+  alternates: { canonical: 'https://heritageroofingtexas.com/locations/comanche' },
   openGraph: {
-    title: 'Roofing Services in Santa Anna, TX | Heritage Roofing, Inc.',
+    title: 'Roofing Services in Comanche, TX | Heritage Roofing, Inc.',
     description:
-      'Local roofing contractor serving Santa Anna and Coleman County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
-    url: 'https://heritageroofingtexas.com/locations/santa-anna',
+      'Local roofing contractor serving Comanche and Comanche County since 1986. Residential, commercial, storm damage, and emergency roof repairs.',
+    url: 'https://heritageroofingtexas.com/locations/comanche',
     type: 'website',
     images: [
       {
         url: 'https://heritageroofingtexas.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Heritage Roofing, Inc. — Roofing Services in Santa Anna, TX',
+        alt: 'Heritage Roofing, Inc. — Roofing Services in Comanche, TX',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Roofing Services in Santa Anna, TX | Heritage Roofing, Inc.',
-    description: 'Local roofing contractor serving Santa Anna and Coleman County. Residential, commercial, storm damage, and emergency roof repairs.',
+    title: 'Roofing Services in Comanche, TX | Heritage Roofing, Inc.',
+    description: 'Local roofing contractor serving Comanche County. Residential, commercial, storm damage, and emergency roof repairs.',
     images: ['https://heritageroofingtexas.com/og-image.jpg'],
   },
 }
@@ -41,80 +41,80 @@ const services = [
     title: 'Residential Roofing',
     href: '/services/residential-roofing',
     description:
-      'Santa Anna sits at the foot of the mountain of the same name in Coleman County, with a mix of ranch homes and newer construction spread across a wide rural landscape. Heritage Roofing installs architectural shingles, standing seam metal, and tile roofing for Santa Anna homeowners who want materials that perform well in West-Central Texas weather.',
+      'Comanche is the county seat of Comanche County, with a mix of historic homes near the courthouse square and newer construction on the city\'s edges. Heritage Roofing installs architectural shingles, metal roofing, and tile for Comanche homeowners, recommending materials that hold up in this part of Central Texas.',
   },
   {
     title: 'Commercial Roofing',
     href: '/services/commercial-roofing',
     description:
-      'Santa Anna\'s commercial and agricultural buildings require roofing systems built for the region\'s heat, wind, and occasional hail. Heritage Roofing installs TPO, metal panel, and modified bitumen flat roofing for local businesses and farm operations, with full material and labor warranties.',
+      'From Comanche\'s downtown commercial district to agricultural and light industrial buildings outside town, Heritage Roofing provides TPO, metal panel, and built-up roofing systems for local businesses. We work on your schedule and provide written warranties on all commercial installations.',
   },
   {
     title: 'Roof Repair',
     href: '/services/roof-repair',
     description:
-      'Heat cycles and seasonal storms create specific wear patterns on Coleman County roofs — lifted shingles, cracked pipe boots, failed ridge cap, and flashing separations are common. Our crew finds the actual source of the problem rather than applying a surface patch that won\'t last.',
+      'In Comanche County\'s climate, a small roofing problem can quickly become a structural issue. Our crews find the true source of leaks and repair damaged shingles, failing flashing, deteriorated pipe boots, and ridge cap damage before moisture reaches your decking or interior ceilings.',
   },
   {
     title: 'Roof Replacement',
     href: '/services/roof-replacement',
     description:
-      'When your Santa Anna home needs a complete new roof, Heritage Roofing handles everything from tear-off and disposal through installation and final cleanup. We provide written estimates with no surprise line items and complete most residential replacements in one to two days.',
+      'When your Comanche home needs a full replacement, Heritage Roofing handles tear-off, disposal, and new installation. We guide you through material options, give you a written estimate with no hidden costs, and complete most residential jobs in one to two days.',
   },
   {
     title: 'Storm & Hail Damage',
     href: '/services/storm-hail-damage',
     description:
-      'Coleman County receives regular hail through the spring and early summer. Heritage Roofing responds quickly after storms, documents all damage with photographs and written reports, and works directly with your insurance adjuster to manage the full restoration from claim to completion.',
+      'Comanche County sits in an active hail corridor. Heritage Roofing responds to storm damage with thorough inspections, photographic documentation, and written reports suitable for insurance claims. We meet with your adjuster on-site and manage the full restoration process.',
   },
   {
     title: 'Roof Inspections',
     href: '/services/roof-inspections',
     description:
-      'Whether you\'re purchasing a property near Santa Anna, responding to an insurance claim, or simply checking your roof before storm season, Heritage Roofing provides honest written inspections with photos and a clear summary of conditions.',
+      'Whether you\'re buying property in Comanche, navigating an insurance claim, or checking on your roof ahead of storm season, Heritage Roofing provides written inspections with photographs and an honest assessment of your roof\'s condition.',
   },
   {
     title: 'Skylights & Attic Ventilation',
     href: '/services/skylights-ventilation',
     description:
-      'In Central-West Texas summers, an under-ventilated attic adds years of wear to your shingles and drives up cooling costs. We install ridge vents, soffit vents, powered attic fans, and quality skylights for Santa Anna homeowners who want a properly breathing roof system.',
+      'Proper attic ventilation is critical in Central Texas summers. Without it, heat buildup accelerates shingle aging and raises energy bills. We install ridge vents, soffit vents, powered attic fans, and quality skylights for Comanche homes and commercial properties.',
   },
   {
     title: 'Emergency Roof Repair',
     href: '/services/emergency-repairs',
     description:
-      'When a severe storm peels back roofing or creates an opening into your attic, Heritage Roofing is available seven days a week for emergency response. We tarp and secure your structure to prevent further water intrusion until a full repair can be completed.',
+      'Storm damage doesn\'t wait for business hours. Heritage Roofing offers emergency response seven days a week for Comanche homeowners and businesses when severe weather creates an urgent opening in your roof.',
   },
 ]
 
 const faqs = [
   {
-    q: 'Does Heritage Roofing serve Santa Anna, TX?',
-    a: 'Yes. Santa Anna and Coleman County are part of our regular service area. Our crews work throughout the area. Call 325-510-5768 to schedule an estimate.',
+    q: 'Does Heritage Roofing serve Comanche, TX?',
+    a: 'Yes. Comanche and Comanche County are within our regular service area. We have crews working in the county regularly. Call 325-510-5768 to schedule.',
   },
   {
-    q: 'Do you offer free estimates in Santa Anna?',
-    a: 'Yes. We provide free, no-obligation estimates for residential and commercial projects in Santa Anna and surrounding Coleman County communities.',
+    q: 'Do you offer free estimates in Comanche?',
+    a: 'Yes. We provide free, no-obligation estimates for residential and commercial projects in Comanche and throughout Comanche County. Call 325-510-5768 or use our contact form.',
   },
   {
-    q: 'What roofing materials work best in Coleman County?',
-    a: 'Class 4 impact-resistant architectural shingles are the most practical choice given the regional hail exposure. Standing seam metal is a strong long-term investment for rural and agricultural properties in the area.',
+    q: 'What roofing materials do you recommend for Comanche homes?',
+    a: 'Class 4 impact-resistant architectural shingles are the most popular choice in Central Texas given the hail exposure. Metal roofing is an excellent long-term investment, especially for agricultural or rural properties in Comanche County.',
   },
   {
-    q: 'Can you help with an insurance claim after a hail storm in Santa Anna?',
-    a: 'Yes. We document storm damage with photographs and written reports and are available to meet your adjuster on-site. We\'ve worked through the insurance process with many Coleman County homeowners.',
+    q: 'Can you help with a hail damage insurance claim in Comanche?',
+    a: 'Absolutely. We document all storm damage with photographs and a written report and are available to meet with your adjuster on-site. We\'ve helped many Comanche County homeowners navigate the insurance restoration process.',
   },
   {
-    q: 'How far is Heritage Roofing from Santa Anna?',
-    a: 'We serve Santa Anna from our Brownwood area operations, which is a short drive west on US 67. We are regularly in Coleman County and can typically schedule estimates within a few business days.',
+    q: 'How long does a roof replacement take in Comanche?',
+    a: 'Most residential replacements are completed in one to two days. We handle full tear-off and disposal and clean up the site each day.',
   },
   {
-    q: 'Do you serve other towns near Santa Anna?',
-    a: 'Yes. In addition to Santa Anna, we serve Coleman (325-510-5768), Brownwood and Brown County (325-510-5768), Stephenville and Erath County (254-968-7663), and Granbury and Hood County (817-573-0890).',
+    q: 'Do you serve areas near Comanche?',
+    a: 'Yes. In addition to Comanche, we serve Brownwood and Brown County (325-510-5768), Stephenville and Erath County (254-968-7663), and Granbury and Hood County (817-573-0890).',
   },
 ]
 
-export default function SantaAnnaPage() {
+export default function ComanchePage() {
   return (
     <>
       <SiteHeader />
@@ -128,16 +128,16 @@ export default function SantaAnnaPage() {
         >
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-yellow-400 text-sm font-semibold uppercase tracking-widest mb-3">
-              Coleman County &mdash; Since 1986
+              Comanche County &mdash; Since 1986
             </p>
             <h1
               id="page-heading"
               className="font-display text-4xl md:text-5xl font-bold text-white text-balance leading-tight mb-4"
             >
-              Roofing Services in Santa Anna, TX
+              Roofing Services in Comanche, TX
             </h1>
             <p className="text-blue-200 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
-              Heritage Roofing, Inc. has served Santa Anna and Coleman County since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses in the area.
+              Heritage Roofing, Inc. has served Comanche and Comanche County since 1986. We provide residential and commercial roofing, storm damage repairs, and emergency services for homes and businesses in the Comanche area.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -160,20 +160,20 @@ export default function SantaAnnaPage() {
         </section>
 
         {/* Local intro */}
-        <section aria-label="About Heritage Roofing in Santa Anna" className="py-12 px-4 bg-white">
+        <section aria-label="About Heritage Roofing in Comanche" className="py-12 px-4 bg-white">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-2xl font-bold mb-4" style={{ color: '#0f1840' }}>
-              Your Santa Anna Roofing Contractor
+              Your Comanche Roofing Contractor
             </h2>
             <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed space-y-4">
               <p>
-                Santa Anna is a small community in Coleman County, located along US 67 between Brownwood and Coleman. Known locally for the landmark peak that shares its name, the town sits in open ranch country where wind, heat, and seasonal hail take a predictable toll on residential and commercial roofing.
+                Comanche is the county seat of Comanche County, located in the heart of Central Texas between Brownwood and Stephenville. Heritage Roofing has been serving this community since 1986, providing residential and commercial roofing to homeowners, ranchers, and businesses throughout the county.
               </p>
               <p>
-                Heritage Roofing has been working in Coleman County since 1986. We understand the specific conditions that affect roofing in this part of West-Central Texas — from the intense summer UV exposure that ages shingles prematurely to the fast-moving spring storms that roll across open terrain with little warning.
+                Comanche County experiences the same hail-heavy spring storm seasons and intense summer heat that affect the entire Central Texas region. These conditions wear on roofing faster than many homeowners realize — shingle granule loss, flashing failures, and heat-driven expansion cracks are common issues we address regularly in this area.
               </p>
               <p>
-                We are licensed, insured, and based in the region. Santa Anna homeowners and businesses get the same quality materials and crew standards as our work in Brownwood and Stephenville, and we stand behind every job with a workmanship warranty.
+                Heritage Roofing is licensed, insured, and regionally based. We don&apos;t send out-of-state crews to Comanche — you get a local team that knows this part of Texas and will be available for warranty work long after your project is done.
               </p>
             </div>
           </div>
@@ -191,10 +191,10 @@ export default function SantaAnnaPage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Services We Offer in Santa Anna, TX
+              Services We Offer in Comanche, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Every service below is available to Santa Anna homeowners and businesses. Same crew, same standards as our Brownwood work.
+              Every service below is available to Comanche homeowners and businesses. Same crew, same standards as our Brownwood work.
             </p>
 
             <div className="space-y-10">
@@ -204,7 +204,7 @@ export default function SantaAnnaPage() {
                   className="bg-white rounded-xl p-7 border border-[#e2ddd6]"
                 >
                   <h3 className="font-display text-xl font-bold mb-3" style={{ color: '#4054b2' }}>
-                    {service.title} in Santa Anna, TX
+                    {service.title} in Comanche, TX
                   </h3>
                   <p className="text-gray-700 leading-relaxed mb-4">{service.description}</p>
                   <Link
@@ -230,10 +230,10 @@ export default function SantaAnnaPage() {
         >
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-display text-3xl font-bold text-white mb-3 text-balance">
-              Ready to Get Started in Santa Anna?
+              Ready to Get Started in Comanche?
             </h2>
             <p className="text-red-100 mb-7 text-lg">
-              Call our Brownwood area office or submit a request online. Free estimates, no pressure.
+              Call our Brownwood office or submit a request online. Free estimates, no pressure.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -266,17 +266,17 @@ export default function SantaAnnaPage() {
               className="font-display text-2xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Serving Santa Anna, TX
+              Serving Comanche, TX
             </h2>
             <p className="text-gray-600 mb-8">
-              Our Brownwood area operations serve Santa Anna and all of Coleman County.
+              Our Brownwood office serves Comanche and all surrounding Comanche County communities.
             </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
               <div className="lg:col-span-3 rounded-xl overflow-hidden border border-[#e2ddd6] shadow-sm">
                 <iframe
-                  title="Heritage Roofing, Inc. — Serving Santa Anna, TX"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24000!2d-99.3237!3d31.7382!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab4adc7c2e1ef9d7!2sHeritage+Roofing+Inc!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus&cid=12288339561500500951"
+                  title="Heritage Roofing, Inc. — Serving Comanche, TX"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13291.0!2d-98.6012!3d31.8990!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865a5e5e5e5e5e5e%3A0x0!2sComanche%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000"
                   width="100%"
                   height="360"
                   style={{ border: 0, display: 'block' }}
@@ -289,7 +289,7 @@ export default function SantaAnnaPage() {
               <div className="lg:col-span-2 space-y-6">
                 <div>
                   <h3 className="font-display text-lg font-bold mb-2" style={{ color: '#4054b2' }}>
-                    Heritage Roofing, Inc.
+                    Serving From Our Brownwood Office
                   </h3>
                   <a
                     href={`https://www.google.com/maps?cid=${GBP_CID}`}
@@ -298,15 +298,15 @@ export default function SantaAnnaPage() {
                     className="text-gray-700 text-sm leading-relaxed hover:text-[#4054b2] transition-colors block"
                   >
                     <address className="not-italic">
-                      1590 N Bates Street<br />
-                      Stephenville, TX 76401
+                      Heritage Roofing, Inc.<br />
+                      Brownwood, TX area
                     </address>
                   </a>
                 </div>
 
                 <div>
                   <h3 className="font-display text-lg font-bold mb-2" style={{ color: '#4054b2' }}>
-                    Santa Anna &amp; Coleman County
+                    Phone
                   </h3>
                   <a href={PHONE_HREF} className="text-[#cc0000] font-semibold hover:text-[#aa0000] transition-colors">
                     {PHONE}
@@ -326,7 +326,7 @@ export default function SantaAnnaPage() {
                     Service Areas
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Santa Anna, Coleman, Brownwood, Bangs, and all of Coleman County
+                    Comanche, Brownwood, De Leon, Goldthwaite, and all of Comanche County
                   </p>
                 </div>
 
@@ -358,10 +358,10 @@ export default function SantaAnnaPage() {
               className="font-display text-3xl font-bold mb-2"
               style={{ color: '#0f1840' }}
             >
-              Frequently Asked Questions — Santa Anna, TX
+              Frequently Asked Questions — Comanche, TX
             </h2>
             <p className="text-gray-600 mb-10">
-              Common questions from Santa Anna homeowners and businesses about our roofing services.
+              Common questions from Comanche homeowners and businesses about our roofing services.
             </p>
 
             <div className="space-y-6">
@@ -401,11 +401,11 @@ export default function SantaAnnaPage() {
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Brownwood &amp; Brown County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Coleman, Bangs, Goldthwaite, Comanche</p>
+                <p className="text-sm text-gray-600 mb-3">Local number for Brown County</p>
                 <a href="tel:3255105768" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   325-510-5768
                 </a>
-                <Link href="/locations/brownwood" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/brownwood-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Brownwood page →
                 </Link>
               </div>
@@ -414,11 +414,11 @@ export default function SantaAnnaPage() {
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Stephenville &amp; Erath County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Dublin, Hico, Eastland</p>
+                <p className="text-sm text-gray-600 mb-3">Our home base since 1986</p>
                 <a href="tel:2549687663" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   254-968-7663
                 </a>
-                <Link href="/locations/stephenville" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/stephenville-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Stephenville page →
                 </Link>
               </div>
@@ -427,11 +427,11 @@ export default function SantaAnnaPage() {
                 <p className="font-display font-bold text-base mb-1" style={{ color: '#0f1840' }}>
                   Granbury &amp; Hood County
                 </p>
-                <p className="text-sm text-gray-600 mb-3">Glen Rose, Weatherford, Mineral Wells</p>
+                <p className="text-sm text-gray-600 mb-3">Local number for Hood County</p>
                 <a href="tel:8175730890" className="text-[#cc0000] font-semibold text-sm hover:text-[#aa0000] transition-colors block mb-3">
                   817-573-0890
                 </a>
-                <Link href="/locations/granbury" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
+                <Link href="/near/granbury-tx" className="text-sm text-[#4054b2] hover:text-[#0f1840] font-medium transition-colors">
                   View Granbury page →
                 </Link>
               </div>
