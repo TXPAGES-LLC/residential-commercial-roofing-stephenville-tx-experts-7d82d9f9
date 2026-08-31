@@ -1,2 +1,2 @@
 export const BLOG_DATA_URL =
-  'https://raw.githubusercontent.com/TXPAGES-LLC/residential-commercial-roofing-stephenville-tx-experts-7d82d9f9/main/lib/blog/posts.json'
+  'https://generator.dynapt.com/api/blog/data/7d82d9f9-e04e-43ba-a733-af9e680facc7'
